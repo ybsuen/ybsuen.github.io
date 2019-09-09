@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Demo com5961
+        </title>
+    </head>
+    <body>
+            <h1>How to create a webpage</h1>
+            <h2 style="
+        border-style: solid;
+        border-width: 5px;
+        background-color: #FFC107;
+        text-align: center;
+        border-color: steelblue;
+        color: darkslateblue;
+        font-size: xx-large;
+        font-family: serif;
+        width: 40%;
+        float: left;
+        padding: 20px;
+        margin-left: 30px;
+        margin-top: 0px;
+    ">My name is Bernard.</h2>
+            <h3 style="
+        border-style: solid;
+        border-width: 5px;
+        width: 50%;
+        float: right;
+    ">I hope you like it here.</h3>
+            <p style="
+        clear: both;
+    ">It's easy and fun.</p>
+            <b>Bold text</b>
+            <u>Underlined text</u>
+            <sub>Subscript text</sub>
+            <sup>Superscript</sup>
+            <img src="http://www.cuhk.edu.hk/english/images/cuhk_logo_2x.png?20150907" border="2">
+            <br>
+            <a href="https://www.cuhk.edu.hk" target="_blank">This is a link to CUHK website.</a>
+            <hr>
+            <ol>
+                <li>apples
+                    <ul>
+                        <li>golder delicious</li>
+                        <li>granny smith</li>
+                        <li>gals</li>
+                    </ul>
+                </li>
+                <li>orange</li>
+                <li>pineapple</li>
+                <li>mangoes</li>
+                <li>dragonfruit</li>
+            
+            <br>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tbody><tr>
+                    <th></th>
+                    <th>Month</th>
+                    <th>Rent</th>
+                    <th colspan="2">Utilities</th>
+                    <th>Groceries</th>
+                    <th>Eating Out</th>
+                    <th>Entertainment</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">Fall</td>
+                    <td>August</td>
+                    <td>$1500</td>
+                    <td>$100</td>
+                    <td>$150</td>
+                    <td>$350</td>
+                    <td>$100</td>
+                    <td>$50</td>    
+                </tr>
+                <tr>
+                        <td>September</td>
+                        <td>$1500</td>
+                        <td>$100</td>
+                        <td>$250</td>
+                        <td>$450</td>
+                        <td>$200</td>
+                        <td>$70</td>    
+                </tr>
+                <tr>
+                        <td>October</td>
+                        <td>$1500</td>
+                        <td>$100</td>
+                        <td>$250</td>
+                        <td>$450</td>
+                        <td>$200</td>
+                        <td>$70</td>    
+                </tr>
+            </tbody></table>
+        <!-- Code injected by live-server -->
+    <script type="text/javascript">
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
+    
+    </ol></body>
+
+</html>
