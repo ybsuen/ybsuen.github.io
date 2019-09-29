@@ -1,0 +1,16 @@
+body {
+            padding-left: 11em;
+            color:purple;
+            font-family: Georgia, "Times New Roman",
+            Times, serif;
+            background-color: green }
+
+ul.navbar {
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif }

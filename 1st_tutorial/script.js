@@ -5,8 +5,7 @@ function show_topic() {
     z = get_input(x,y);
     var my_answer = document.getElementById("demo");
     my_answer.style.fontSize = "25px";
-    my_answer.style.color = "red";
-    my_answer.style.background = "green"
+    my_answer.cssText = "color: red; background: green; border: 1px solid black";
     document.getElementById("demo").innerHTML = "<center><h1 style='color:yellow;'>The answer is:" + z + "</h1></center>";
  }
 
@@ -19,7 +18,7 @@ function show_topic() {
     my_answer.style.fontSize = "25px";
     my_answer.style.color = "red";
     my_answer.style.background = "green"
-    document.getElementById("demo").innerHTML = "<center><h1 style='color:yellow;'>The answer is:" + z + "</h1></center>";
+    document.getElementById("demo").innerHTML = "<center><h1 style='color:black;'>The answer is:" + z + "</h1></center>";
  }
 
  function get_input(x,y) {
