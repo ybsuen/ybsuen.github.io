@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Gimme! Coffee",
+                "BusType": "Cafe",
+                "Description": "Gimme espresso bars are found in New York City and Upstate New York."
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.499491, 42.444508]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "Name": "ZevRoss Spatial Analysis",
+               "BusType": "Data analysis and mapping",
+                "Description": "Specializes in spatial and environmental data analysis and statistics, geographic information systems and custom data design."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.4958259, 42.440258]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "Name": "Argos Inn",
+               "BusType": "Inn and Bar",
+                "Description": "Inn and cocktail bar in a beautifully restored historic mansion."
+
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.492543, 42.439401]
+            }
+        }
+
+
+    ]
+
+}
