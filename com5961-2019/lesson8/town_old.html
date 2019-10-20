@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Town Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="leaflet.css">
+  <script src="leaflet.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
+  </head>
+
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home page</a>
+        <li><a href="musings.html">Musings</a>
+        <li class="active"><a href="town.html">My town</a>
+        <li><a href="links.html">Links</a>
+      </ul>
+    </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Town Page</h1>
+      <p>Welcome to my town page!</p>
+      <!--div id="map" style="width: 600px; height: 400px"></div-->
+      <div id="map1" style="width: 800px; height: 440px; border: 1px solid #AAA;"></div>
+      <div id="map2" style="width: 800px; height: 440px; border: 1px solid #AAA;"></div>
+    </div>
+  </div>
+</div>
+<script type='text/javascript' src='markers.json'></script>
+<script type='text/javascript' src='leaf-demo.js'></script>
+</body>
+</html>
