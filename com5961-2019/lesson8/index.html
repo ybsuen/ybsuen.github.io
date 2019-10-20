@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Index Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.2/axios.min.js"></script>
+  <script> 
+
+  function compute_x_plus_y(x,y) { 
+    var z = 0;
+    x = parseInt(x);
+    y = parseInt(y);
+    z = x + y;
+    return z;
+  }
+
+  function ask_for_x_n_y() { 
+    var x = prompt("Enter x value");
+    var y = prompt("Enter y value");
+    var z = compute_x_plus_y(x,y);
+    var x = document.getElementById("demo"); 
+    x.style.fontSize = "25px"; 
+    x.style.color = "red"; 
+    document.getElementById("demo").innerHTML = "The answer is " + z; 
+  }
+
+  function ask_xy() { 
+    var x = document.getElementById("myForm").elements[0].value;
+    var y = document.getElementById("myForm").elements[1].value;
+    var z = compute_x_plus_y(x,y);
+    var x = document.getElementById("demo"); 
+    x.style.fontSize = "25px"; 
+    x.style.color = "red"; 
+    document.getElementById("demo").innerHTML = "The answer is " + z; 
+  }
+
+  function show_topic() { 
+    var x = document.getElementById("welcome"); 
+    x.style.fontSize = "25px"; 
+    x.style.color = "red"; 
+  } 
+
+  $(document).ready(function(){
+
+    $("button#hide_h2").on('click',function(){
+        $("h2").hide(500);
+    });
+
+    $("button#show_h2").on('click',function(){
+        $("h2").show(300);
+        $("h2").css("color","red");
+        $("h2").html("You clicked me hard.");
+    });
+
+  });
+
+  </script> 
+</head>
+
+<body>
+<div class="container">
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="index.html">Home page</a>
+  <li><a href="musings.html">Musings</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul>
+
+<!-- Main content -->
+<h1>Index Page</h1>
+
+<h2>This is a H2 sub-title</h2>
+
+<p id="welcome">Welcome to my index page!
+
+<p id="demo">It lacks images, but at least it has style.
+And it has links, even if they don't go
+anywhere&hellip;
+
+<p>There should be more here, but I don't know
+what yet.
+
+<!-- Sign and date the page, it's only polite! -->
+<br>
+<button type="button" class="btn btn-primary" onclick="ask_for_x_n_y();">X + Y = ?</button>
+<button type="button" class="btn btn-primary" onclick="ask_xy();">Another X + Y = ?</button>
+<button type="button" class="btn btn-success" onclick="show_topic();">Change Text Color of Welcome Message</button>
+<button type="button" class="btn btn-info" id='hide_h2'>Hide H2 text</button>
+<button type="button" class="btn btn-warning" id='show_h2'>Show H2 text in blue</button>
+<form id="myForm">
+    <div class="form-group">
+      <label for="1st">Enter first number:</label>
+      <input type="text" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="2nd">Enter second number:</label>
+      <input type="text" class="form-control">
+    </div>
+  </form>
+<address>Made 5 April 2004<br>
+  by myself.</address>
+</div>
+</body>
+</html>
