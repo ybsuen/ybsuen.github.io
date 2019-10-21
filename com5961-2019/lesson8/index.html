@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Link Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  function compute_x_plus_y(x,y) {
+    var z = 0;
+    x = parseInt(x);
+    y = parseInt(y);
+    z = x + y;
+    return z;
+  }
+
+  function ask_for_x_n_y() {
+    var x = prompt("Enter x value");
+    var y = prompt("Enter y value");
+    var z = compute_x_plus_y(x,y);
+    var x = document.getElementById("demo");
+    x.style.fontSize = "25px";
+    x.style.color = "red";
+    document.getElementById("demo").innerHTML = "The answer is " + z; 
+  }
+
+  function ask_xy() {
+    var x = document.getElementById("1st_num").value;
+    var y = document.getElementById("2nd_num").value;
+    var z = compute_x_plus_y(x,y);
+    var x = document.getElementById("demo");
+    x.style.fontSize = "25px";
+    x.style.color = "red";
+    document.getElementById("demo").innerHTML = "The answer is " + z; 
+  }
+
+  function show_topic() {
+    var x = document.getElementById("welcome");
+    x.style.fontSize = "25px";
+    x.style.color = "red";
+  }
+  </script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+    <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home page</a></li>
+          <li><a href="test_getjson.html">Airtable GetJSON</a></li>
+        </ul> 
+    </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Home Page</h1>
+      <h2>Simple Demo of JavaScript,JQuery and Bootstrap</h2>
+      <p id="welcome">Welcome to HTML/CSS/JS play</p>
+
+        <div class="well"><p id="demo">This is a simple demonstration of JavaScript
+        and JQuery with Bootstrap providing the core CSS styling.</div>
+
+
+        <!-- Sign and date the page, it's only polite! -->
+        <br>
+        <button type="button" class="btn btn-primary" onclick="ask_for_x_n_y();">X + Y = ?</button>
+        <button type="button" class="btn btn-primary" onclick="ask_xy();">Another X + Y = ?</button>
+        <button type="button" class="btn btn-success" onclick="show_topic();">Change Text Color of Welcome Message</button>
+        <button type="button" class="btn btn-info" id='hide_h2'>Hide H2 text</button>
+        <button type="button" class="btn btn-warning" id='show_h2'>Show H2 text in blue</button>
+        <form id="myForm">
+            <div class="form-group">
+              <label for="1st">Enter first number:</label>
+              <input type="text" class="form-control" id='1st_num'>
+            </div>
+            <div class="form-group">
+              <label for="2nd">Enter second number:</label>
+              <input type="text" class="form-control" id='2nd_num'>
+            </div>
+          </form>
+    </div>
+  </div>
+</div>
+<script src='scriptlib2.js'></script>
+</body>
+</html>
