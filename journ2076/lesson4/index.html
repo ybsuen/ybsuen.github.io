@@ -2,8 +2,27 @@
 <html>
 <head>
   <title>My first styled page</title>
+  <script type="text/javascript" src="http://aptonic.github.com/ab.js/ab.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script type="text/javascript">
+
+  var myAbTest = ABTest({
+      name: "Example_Test",
+      customVarSlot: 1,
+      variations: {
+          first_variation: function () {
+              document.getElementById("content").innerHTML = "<h1>This is a variation</h1>";
+          },
+          another_variation: function () {
+              document.getElementById("content").innerHTML = "<h1>This is another variation</h1>";
+          },
+          control: function () { /* Empty function. */
+          }
+      }
+  });
+
+</script>
 </head>
 
 <body>
@@ -20,7 +39,7 @@
 <h1>My first styled page</h1>
 
 <p>Welcome to my styled page!
-
+<div id="content"></div>
 <p>It lacks images, but at least it has style.
 And it has links, even if they don't go
 anywhere&hellip;
