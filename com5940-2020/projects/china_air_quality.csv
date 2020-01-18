@@ -1,0 +1,42 @@
+	Rank	City	Province belongs to	AQI	Air Quality Level	PM2.5	PM10
+0	1	Urumqi	Xinjiang	30	Excellent	11	21
+1	2	Changchun	Jilin	50	Excellent	29	51
+2	3	Dalian	Liaoning	53	Good	26	56
+3	4	Lhasa	Tibet	52	Good	20	58
+4	5	Sanya	Hainan	55	Good	20	60
+5	6	Shenyang	Liaoning	56	Good	33	63
+6	7	Kunming	Yunnan	57	Good	36	59
+7	8	Hangzhou	Zhejiang	59	Good	27	65
+8	9	Haikou	Hainan	59	Good	30	68
+9	10	Qingdao	Shandong	68	Good	28	85
+10	11	Changsha 	Hunan	69	Good	33	88
+11	12	Chongqing	Chongqing	69	Good	26	87
+12	13	Shenzhen	Guangdong	70	Good	37	91
+13	14	Suzhou	Jiangsu	72	Good	33	102
+14	15	Fuzhou	Fujian	72	Good	31	94
+15	16	Wuhan	Hubei	74	Good	32	104
+16	17	Nanjing	Jiangsu	77	Good	23	104
+17	18	Shanghai	Shanghai	77	Good	40	103
+18	19	Xiamen	Fujian	77	Good	30	90
+19	20	Nanning	Guangxi	79	Good	46	108
+20	21	Hefei	Anhui	84	Good	36	118
+21	22	Datong	Shanxi	87	Good	51	124
+22	23	Guilin	Guangxi	87	Good	56	122
+23	24	Guiyang	Guizhou	91	Good	48	132
+24	25	Harbin	Heilongjiang	94	Good	63	103
+25	26	Xining	Qinghai	95	Good	55	118
+26	27	Yangzhou	Jiangsu	96	Good	36	142
+27	28	Guangzhou	Guangdong	99	Good	71	131
+28	29	Hohhot	Inner Mongolia	100	Good	53	150
+29	30	Lanzhou	Gansu	100	Good	43	135
+30	31	Luoyang	Henan	101	Lightly Polluted	67	144
+31	32	Chengdu	Sichuan	101	Lightly Polluted	62	143
+32	33	Jinan	Shandong	103	Lightly Polluted	43	151
+33	34	Xian	Shaanxi	106	Lightly Polluted	75	137
+34	35	Beijing	Beijing	109	Lightly Polluted	82	103
+35	36	Zhengzhou	Henan	111	Lightly Polluted	63	172
+36	37	Tianjin	Tianjin	118	Lightly Polluted	83	179
+37	38	Baotou	Inner Mongolia	124	Lightly Polluted	59	198
+38	39	Shijiazhuang	Hebei	129	Lightly Polluted	87	200
+39	40	Taiyuan	Shanxi	141	Lightly Polluted	88	214
+40	41	Yinchuan	Ningxia	203	Heavily Polluted	77	340
