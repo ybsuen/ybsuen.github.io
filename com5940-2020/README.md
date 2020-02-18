@@ -10,7 +10,6 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 敏捷开发不是口号，是时候分清快速迭代与整体规划了 (http://www.woshipm.com/pd/2402023.html)
 - Google Design Sprint 设计方法介绍 (https://www.jianshu.com/p/608db80f0cd0)
 - 撰写PRD (Product Requirement Document) 之用户体验五要素篇 (http://www.woshipm.com/pmd/3319375.html)设计思维、
-- 精益创业和敏捷开发三者的区别和关联 (http://www.woshipm.com/chuangye/1935180.html)
 - 设计思维、精益创业和敏捷开发三者的区别和关联 (http://www.woshipm.com/chuangye/1935180.html)
 - 产品经理到底要不要懂技术？ (http://www.woshipm.com/pmd/484168.html)
 
