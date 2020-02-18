@@ -4,7 +4,6 @@ This is the place where you can find the supporting materials used in COM5940 - 
 ## Lesson 3
 - Coding examples in JavaScript and Python Jupyter Notebook.
 ## 与第三课相关的文章分享:
-- Four Key Product Principles from WeChat’s Creator (https://a16z.com/2019/02/05/allen-zhang-wechat-product-principles/)
 - 腾讯与敏捷开发 (https://www.cnblogs.com/huidaoli/p/3551169.html)
 - 浅谈敏捷开发 (https://www.jianshu.com/p/d42aa84c2bd7)
 - 扫盲——敏捷开发 Agile development 之 Scrum开发 (https://www.jianshu.com/p/eb8f4448c5c8)
@@ -17,3 +16,4 @@ This is the place where you can find the supporting materials used in COM5940 - 
 ## 与第三课相关的面试问题
 - 进大厂必读：京东—产品经理主观题解析 (http://www.woshipm.com/zhichang/2874025.html)
 - 刚毕业的我是如何拿到腾讯产品经理offer的 (http://www.woshipm.com/zhichang/1758326.html)
+- Four Key Product Principles from WeChat’s Creator (https://a16z.com/2019/02/05/allen-zhang-wechat-product-principles/)
