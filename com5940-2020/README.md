@@ -1,3 +1,6 @@
+# Course Outline
+- https://github.com/ybsuen/ybsuen.github.io/blob/master/com5940-2020/course-outline/COMM5940_COURSE_OUTLINE_UPDATED_FEB_2020.pdf
+
 # Reference Materials for COM5940
 This is the place where you can find the supporting materials used in COM5940 - New Media Business Model and Innovation.
 
