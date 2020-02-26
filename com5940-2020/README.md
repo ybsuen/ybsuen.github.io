@@ -36,3 +36,6 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 阿里还会使用react吗？(https://www.zhihu.com/question/65446071?sort=created)
 - 关于vue，angular，react，学哪个比较吃香? (https://www.zhihu.com/question/353014742/answer/903771879)
 - React与Vue的对比 (https://www.cnblogs.com/yubin-/p/11537122.html)
+- d3与echarts的区别 (https://blog.csdn.net/ysj1218/article/details/80523474)
+- 除了ECharts做canvas数据可视化外，你还不知道的JS数据可视化工具 (https://www.sohu.com/a/169206455_99961117)
+- 强烈推荐！实用的数据可视化工具大集合！(https://baijiahao.baidu.com/s?id=1599519052462181435&wfr=spider&for=pc)
