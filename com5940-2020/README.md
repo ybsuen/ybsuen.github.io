@@ -23,7 +23,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 
 ## Lesson 4
 - Coding examples in JavaScript for PhoneGap/Cordova development.
-## 与第三课相关的文章分享
+## 与第四课相关的文章分享
 - 比App更好用的PWA，让小程序相形见绌的新标准 (https://t.cj.sina.com.cn/articles/view/5824404251/15b295b1b001004wlh)
 - 无需下载、打开即用！这 8 个 Google 版小程序真的太好用了 (https://www.ifanr.com/app/1243437)
 - jQuery Animation from tutorialteachers.com (https://www.tutorialsteacher.com/jquery/jquery-animation)
@@ -31,7 +31,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - VueJS - a popular open-source JavaScript framework created by Evan You (https://cn.vuejs.org/)
 - eCharts - a popular open-source data visualization framework originated from Baidu (https://echarts.apache.org/zh/index.html)
 - Between the Wires: An interview with Vue.js creator Evan You (https://www.freecodecamp.org/news/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4/)
-## 与第三课相关的面试问题
+## 与第四课相关的面试问题
 - Vue.js与Jquery的比较 谁与争锋 js风暴 (https://blog.csdn.net/qq_20062767/article/details/53127903)
 - 阿里还会使用react吗？(https://www.zhihu.com/question/65446071?sort=created)
 - 关于vue，angular，react，学哪个比较吃香? (https://www.zhihu.com/question/353014742/answer/903771879)
