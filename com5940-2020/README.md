@@ -20,3 +20,14 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 进大厂必读：京东—产品经理主观题解析 (http://www.woshipm.com/zhichang/2874025.html)
 - 刚毕业的我是如何拿到腾讯产品经理offer的 (http://www.woshipm.com/zhichang/1758326.html)
 - Four Key Product Principles from WeChat’s Creator (https://a16z.com/2019/02/05/allen-zhang-wechat-product-principles/)
+
+## Lesson 4
+- Coding examples in JavaScript for PhoneGap/Cordova development.
+## 与第三课相关的文章分享
+- 比App更好用的PWA，让小程序相形见绌的新标准 (https://t.cj.sina.com.cn/articles/view/5824404251/15b295b1b001004wlh)
+- 无需下载、打开即用！这 8 个 Google 版小程序真的太好用了 (https://www.ifanr.com/app/1243437)
+- jQuery Animation from tutorialteachers.com (https://www.tutorialsteacher.com/jquery/jquery-animation)
+- jQuery Animation - official documentation (https://api.jquery.com/animate/)
+- VueJS - a popular open-source JavaScript framework created by Evan You (https://cn.vuejs.org/)
+- eCharts - a popular open-source data visualization framework originated from Baidu (https://echarts.apache.org/zh/index.html)
+- Between the Wires: An interview with Vue.js creator Evan You (https://www.freecodecamp.org/news/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4/)
