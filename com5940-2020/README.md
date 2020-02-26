@@ -31,7 +31,6 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - VueJS - a popular open-source JavaScript framework created by Evan You (https://cn.vuejs.org/)
 - eCharts - a popular open-source data visualization framework originated from Baidu (https://echarts.apache.org/zh/index.html)
 - Between the Wires: An interview with Vue.js creator Evan You (https://www.freecodecamp.org/news/between-the-wires-an-interview-with-vue-js-creator-evan-you-e383cbf57cc4/)
-
 ## 与第三课相关的面试问题
 - Vue.js与Jquery的比较 谁与争锋 js风暴 (https://blog.csdn.net/qq_20062767/article/details/53127903)
 - 阿里还会使用react吗？(https://www.zhihu.com/question/65446071?sort=created)
