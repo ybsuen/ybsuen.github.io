@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+    html,body {
+        width: 100%;
+        height: 100%;
+        position: relative; 
+    }
+    body {
+    overflow: hidden;
+    }
+
+    .panel {
+    width: 100%;
+    height: 500px;
+    background:green;
+    z-index:0; 
+    -webkit-transform: translateZ( 0 );
+    transform: translateZ( 0 );
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    }
+
+    .panel h1 {
+    font-family: sans-serif;
+    font-size: 64px;
+    font-size: 4rem;
+    color: #000;
+    position:relative;
+    line-height: 200px;
+    top: 33%;
+    text-align: center;
+    margin: 0;
+    }
+
+    a[ id= "servicios" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+    }
+
+    a[ id= "galeria" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+    }
+    a[ id= "contacto" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+    }
+
+</style>
+
+<script>
+    /*
+    $(document).ready(function(){
+        $("#home").on('click', function() {
+            $('#main').css("transform","translateY( 0% )");
+        });
+        $("#f1").on('click', function() {
+            $('#main').css("transform","translateY( -100% )");
+        });
+        $("#f2").on('click', function() {
+            $('#main').css("transform","translateY( -200% )");
+        });
+        $("#f3").on('click', function() {
+            $('#main').css("transform","translateY( -300% )");
+        });
+    });
+    */
+</script>
+
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a id="home" href="#">Home</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <section id="main">
+        <article class="panel" id="servicios">
+            <h1> Nuestros Servicios</h1>
+        </article>
+
+        <article class="panel" id="galeria">
+            <h1> Mustra de nuestro trabajos</h1>
+        </article>
+
+        <article class="panel" id="contacto">
+            <h1> Pongamonos en contacto</h1>
+        </article>
+    </section>
+
+</body>
+</html>

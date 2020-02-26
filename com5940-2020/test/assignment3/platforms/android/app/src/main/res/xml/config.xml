@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.intechnigence.lesson4" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>lesson4</name>
+    <description>
+        Lesson 4 Class Demonstration
+    </description>
+    <author email="bernard@cuhk.edu.hk" href="https://github.com/ybsuen">
+        Bernard Suen
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <allow-navigation href="https://mobile.twitter.com/ybsuen" />
+    <allow-navigation href="https://m.facebook.com/ybsuen" />
+    <allow-navigation href="https://www.instagram.com/ybsuen" />
+    <allow-navigation href="https://github.com/ybsuen" />
+    <icon density="mdpi" src="www/res/icon/android/ic_launcher-mdpi.png" />
+    <icon density="hdpi" src="www/res/icon/android/ic_launcher-hdpi.png" />
+    <icon density="xhdpi" src="www/res/icon/android/ic_launcher-xhdpi.png" />
+    <icon density="xxhdpi" src="www/res/icon/android/ic_launcher-xxhdpi.png" />
+    <icon density="xxxhdpi" src="www/res/icon/android/ic_launcher-xxxhdpi.png" />
+    <splash density="land-ldpi" src="www/res/screen/android/drawable-land-ldpi-screen.png" />
+    <splash density="land-mdpi" src="www/res/screen/android/drawable-land-mdpi-screen.png" />
+    <splash density="land-hdpi" src="www/res/screen/android/drawable-land-hdpi-screen.png" />
+    <splash density="land-xhdpi" src="www/res/screen/android/drawable-land-xhdpi-screen.png" />
+    <splash density="land-xxhdpi" src="www/res/screen/android/drawable-land-xxhdpi-screen.png" />
+    <splash density="land-xxxhdpi" src="www/res/screen/android/drawable-land-xxxhdpi-screen.png" />
+    <splash density="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.png" />
+    <splash density="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.png" />
+    <splash density="port-hdpi" src="www/res/screen/android/drawable-port-hdpi-screen.png" />
+    <splash density="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.png" />
+    <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.png" />
+    <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="BackupWebStorage" value="local" />
+</widget>

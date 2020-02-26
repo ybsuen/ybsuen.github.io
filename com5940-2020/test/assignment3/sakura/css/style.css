@@ -1,0 +1,204 @@
+/* Add custom color CSS */
+.navbar-default {
+  background-color:  rgb(126, 0, 69);
+  border-color: white;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: rgb(126, 0, 69);
+}
+.navbar-default .navbar-text {
+  color: rgb(126, 0, 69);
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: rgb(126, 0, 69);
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: rgb(126, 0, 69);
+  background-color: white;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: rgb(126, 0, 69);
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border-color: rgb(126, 0, 69);
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: rgb(126, 0, 69);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #f2f794;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f2f794;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: white;
+    background-color: rgb(126, 0, 69);
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f2f794;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f2f794;
+    background-color: #762c0b;
+  }
+}
+
+/*************************************************************************/
+/**                           Customized CSS Codes                      **/
+/*************************************************************************/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(126, 0, 69);
+  color: white;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+header {
+  background-color: silver; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 9999;
+  height:100px;
+}
+
+.fa-1x {
+  font-size: 3em;
+  color: white;
+}
+
+.cover h1 {
+  color: rgb(126, 0, 69);
+}
+
+.cover p {
+  color: rgb(126, 0, 69);
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  background: white;
+  color: rgb(126, 0, 69);
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.modal-body p {
+  margin: 10px 0px 0px 0px;
+}
+
+.modal-body {
+  padding:40px;
+}
+
+#snap  {
+  border-width: 1px;
+  background: white;
+  color: rgb(126, 0, 69);
+  border-style: solid;
+  border-color: rgb(126, 0, 69);
+}
+
+#snap:hover {
+  background: rgb(126, 0, 69);
+  color: white;
+}
+
+.thumbnail {
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+}
+
+.caption {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+#album {
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+.navbar-default {
+  background-color: #6a053d;
+  border-color: #762c0b;
+  padding: 10px;
+}
+
+#myBtn {
+  display: inline-block !important;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    z-index: 99;
+    font-size: 22px !important;
+    border: none;
+    outline: none;
+    background-color: rgb(126, 0, 69);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+#myBtn:hover {
+  background-color: rgb(126, 0, 69);
+}
+
+.float-right {
+  float: right!important;
+}
