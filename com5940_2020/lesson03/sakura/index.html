@@ -1,7 +1,208 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head><title>Testing</title></head>
-<body>
-  This is a test.
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <title>Sakura Trip</title>
+        <link rel="stylesheet" href="https://ybsuen.github.io/com5940-2020/test/assignment3/sakura/css/bootstrap.min.css">
+        <link href="https://ybsuen.github.io/com5940-2020/test/assignment3/sakura/css/font-lato.css" rel="stylesheet" type="text/css">
+        <link href="https://ybsuen.github.io/com5940-2020/test/assignment3/sakura/css/pingendo.css" rel="stylesheet" type="text/css">
+        <link href="https://ybsuen.github.io/com5940-2020/test/assignment3/sakura/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://ybsuen.github.io/com5940-2020/test/assignment3/sakura/css/style.css">
+        <script type="text/javascript" src="https://ybsuen.github.io/com5940-2020/test/assignment3/sakura/js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ybsuen.github.io/com5940-2020/test/assignment3/sakura/js/bootstrap.min.js"></script>
+
+        <script>
+               function modal_handle(name, org_desc, image) {
+                            $("h3.modal-title").html(`${name}`);
+                            $(".modal-body").html(`<img src="${image}"
+                                class="img-responsive"><p>${org_desc}</p>`);
+                            $('#popup-photo').modal('show');
+                } // end modal_handle function
+
+                function topFunction() {
+                    $('html, body').animate({scrollTop : 0},800);
+                    return false;
+                } // end topFunction
+
+        </script>
+    </head>
+    <body>
+        <div id="top"></div>
+        <header>
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#top">Home</a>
+                        </li>
+                        <li>
+                            <a href="#album">Album</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </header>
+        <div class="cover">
+            <div class="cover-image" style="background-image : url('img/cover.jpg')"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center" >
+                        <h1 class="text-muted">Sakura Trip</h1>
+                        <p>Plan your sakura trip here!</p>
+                        <br>
+                        <br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="album">
+            <div class="container" id="album_items">
+            </div> <!-- end container -->
+        </div>
+        <div class="modal fade" id="popup-photo">
+            <div class="modal-dialog" style="margin-top:75px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 class="modal-title"></h3>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <p></p>
+                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+        <div class="footer">
+            <div class="footer">
+                <div class="container">
+                    <p class="float-right">
+                        <a href="#top" style="
+                        color: white;
+                        vertical-align: middle;
+                        text-decoration: none;">Back to top</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <script>
+
+        </script>
+
+        <script>
+            $(document).ready(function(){
+                var counter = 1;
+                var at_getapi = "https://api.airtable.com/v0/app1ePByEoouGWhlo/Table%201?api_key=keyaDyjnSKK65cIPQ";
+                $.getJSON(at_getapi, function(result) {
+                    $.each(result.records, function(key,value) {
+                            var name = value.fields.name;
+                            var image = value.fields.pic;
+                            var desc = value.fields.site;
+                            if (counter == 1) {$("#album_items").append(`<div class="row">`)};
+                            $("#album_items").append(`<div class="col-md-4">
+                        <div class="thumbnail">
+                            <img height="auto" width="100%" src="${image}"
+                            class="img-responsive" style="max-height:200px;">
+                            <div class="caption">
+                                <h3>${name}</h3>
+                                <button class="btn btn-lg btn-primary" onclick="modal_handle('${name}','${desc}','${image}')" data-toggle="modal"
+                                 data-id="107" data-body="testing...">View</button>
+                            </div>
+                        </div>
+                    </div>`);
+                            counter = counter +1; // counter++;
+                            if (counter == 4) {
+                                $("#album_items").append(`<div class="/row">`);
+                                counter = 1;
+                            };
+
+                    }); // end each
+                }); // end getJSON
+
+                var mybutton = document.getElementById("myBtn");
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+                }
+                // When the user clicks on the button, scroll to the top of the document
+            }); // end document ready
+
+        </script>
+        </script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script id="rendered-js">
+                    // jQuery Smooth Scroll
+                    // https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
+                    $("a").on('click', function(event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    }); // end animate
+                    } // End if this.hash
+                    }); // end onclick
+
+                    $("a").on('click touchend', function(event) {
+
+                     // Make sure this.hash has a value before overriding default behavior
+                     if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    }); // end animate
+                    } // End if this.hash
+                    }); // end onclick
+        </script>
+    </body>
 </html>
