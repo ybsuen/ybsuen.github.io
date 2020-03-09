@@ -39,3 +39,18 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - d3与echarts的区别 (https://blog.csdn.net/ysj1218/article/details/80523474)
 - 除了ECharts做canvas数据可视化外，你还不知道的JS数据可视化工具 (https://www.sohu.com/a/169206455_99961117)
 - 强烈推荐！实用的数据可视化工具大集合！(https://baijiahao.baidu.com/s?id=1599519052462181435&wfr=spider&for=pc)
+
+## Lesson 5
+-  Coding examples in Basic Authentication and accessing MySQLdb in Python Flask.  
+## 与第五课相关的文章分享
+- 从Postman到Restbird，API正成为资本市场新宠(http://www.benzhan.net/a/guona/20190802/38230.html)
+- Understanding And Using REST APIs (https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
+- Welcome to the API Economy (https://www.gartner.com/smarterwithgartner/welcome-to-the-api-economy/)
+- What is the API Economy – and why it matters (https://www.the-future-of-commerce.com/2019/07/23/the-api-economy/)
+- REST APIs and their Gain Added Importance on the Rise in Application Integration Design (https://blog.restcase.com/rest-apis-and-their-gain-added-importance-on-the-rise-in-application-integration-design/)
+## 与第五课相关的面试问题
+- 腾讯云网api市场 (https://cloud.tencent.com/developer/information/api%E5%B8%82%E5%9C%BA)
+- 什么是淘宝开放平台(https://open.taobao.com/doc.htm?docId=73&docType=1)
+- 国内值得关注的官方 API 集合 (https://zhuanlan.zhihu.com/p/25121768)
+- 国内主流API市场对比评测 (https://www.jianshu.com/p/3a6e30943a2b)
+(edited)
