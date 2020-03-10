@@ -8,7 +8,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Coding examples in JavaScript and Python Jupyter Notebook.
 ## 与第三课相关的文章分享
 - 腾讯与敏捷开发 (https://www.cnblogs.com/huidaoli/p/3551169.html)
-- 浅谈敏捷开发 (https://www.jianshu.com/p/d42aa84c2bd7)
+- 浅谈敏捷开发 (https://www.jianshu.com/p/d42aa84c2bd7) 作者GreyLi在github的推荐阅读是必看点(https://github.com/greyli/flask-china)
 - 扫盲——敏捷开发 Agile development 之 Scrum开发 (https://www.jianshu.com/p/eb8f4448c5c8)
 - 敏捷开发不是口号，是时候分清快速迭代与整体规划了 (http://www.woshipm.com/pd/2402023.html)
 - Google Design Sprint 设计方法介绍 (https://www.jianshu.com/p/608db80f0cd0)
