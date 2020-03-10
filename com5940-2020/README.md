@@ -54,3 +54,26 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 国内值得关注的官方 API 集合 (https://zhuanlan.zhihu.com/p/25121768)
 - 国内主流API市场对比评测 (https://www.jianshu.com/p/3a6e30943a2b)
 (edited)
+
+## Lesson 6
+-  Coding examples in Flask-SQLAlchemy.  
+## 与第六课相关的文章分享
+- Flask-SQLAlchemy 快速入门(http://www.pythondoc.com/flask-sqlalchemy/quickstart.html)
+- jQueryDataTable row selector - (https://datatables.net/extensions/buttons/examples/print/select.html)
+- jQueryDataTable custom button - (https://datatables.net/extensions/buttons/examples/initialisation/custom.html)
+- C3 Color Pattern - (https://c3js.org/samples/options_color.html)
+- C3 Color - (https://c3js.org/samples/api_data_color.html)
+- How to use Multiple c3 charts on same page - (https://www.oodlestechnologies.com/blogs/How-to-use-Multiple-c3-charts-on-same-page/)
+- Leaflet TileLayer in Grayscale - (https://github.com/Zverik/leaflet-grayscale)
+- JavaScript Popup Form Howto - (https://www.w3schools.com/howto/howto_js_popup_form.asp)
+## 与第六课相关的面试问题及市場需求
+- 2019年最新Python就业薪资怎么样？让人大跌眼镜 (https://blog.csdn.net/ajian6/article/details/90769117?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+- Flask job opportunities in USA - (https://www.ziprecruiter.com/Jobs/Python-Flask)
+- Flask job opportunities in HK - (https://www.glassdoor.com.hk/Job/python-flask-jobs-SRCH_KO0,12.htm?countryRedirect=true)
+- RESTful API 设计指南 - (http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+- 用户故事地图 User Story Map - (https://segmentfault.com/a/1190000019655508)
+- 常见的软件测试用例设计方法有哪些呢？ - (https://www.zhihu.com/question/20227936)
+- 单元测试的定义及意义 - (https://www.cnblogs.com/dreamyu/p/11837386.html)
+- PYCON CHINA 2019 - (https://cn.pycon.org/index.html) 
+- 李辉 (Flask在中国的重要推手之一) 的个人网站 - (http://greyli.com/posts/) 
+(edited)
