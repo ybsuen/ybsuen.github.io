@@ -59,7 +59,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 -  Coding examples in Flask-SQLAlchemy.  
 ## 与第六课相关的文章分享
 - Flask-SQLAlchemy 快速入门(http://www.pythondoc.com/flask-sqlalchemy/quickstart.html)
-- Flask问题集散地：Flask-China (http://greyli.com/flask-china/)
+- Flask问题集散地：Flask-China (http://greyli.com/flask-china/)作者GreyLi在github的推荐阅读必看(https://github.com/greyli/flask-china)
 - jQueryDataTable row selector - (https://datatables.net/extensions/buttons/examples/print/select.html)
 - jQueryDataTable custom button - (https://datatables.net/extensions/buttons/examples/initialisation/custom.html)
 - C3 Color Pattern - (https://c3js.org/samples/options_color.html)
