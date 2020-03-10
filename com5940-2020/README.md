@@ -59,6 +59,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 -  Coding examples in Flask-SQLAlchemy.  
 ## 与第六课相关的文章分享
 - Flask-SQLAlchemy 快速入门(http://www.pythondoc.com/flask-sqlalchemy/quickstart.html)
+- Flask问题集散地：Flask-China (http://greyli.com/flask-china/)
 - jQueryDataTable row selector - (https://datatables.net/extensions/buttons/examples/print/select.html)
 - jQueryDataTable custom button - (https://datatables.net/extensions/buttons/examples/initialisation/custom.html)
 - C3 Color Pattern - (https://c3js.org/samples/options_color.html)
@@ -75,5 +76,4 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 常见的软件测试用例设计方法有哪些呢？ - (https://www.zhihu.com/question/20227936)
 - 单元测试的定义及意义 - (https://www.cnblogs.com/dreamyu/p/11837386.html)
 - PYCON CHINA 2019 - (https://cn.pycon.org/index.html) 
-- 李辉 (Flask在中国的重要推手之一) 的个人网站 - (http://greyli.com/posts/) 
 (edited)
