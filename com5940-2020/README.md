@@ -76,5 +76,5 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 用户故事地图 User Story Map - (https://segmentfault.com/a/1190000019655508)
 - 常见的软件测试用例设计方法有哪些呢？ - (https://www.zhihu.com/question/20227936)
 - 单元测试的定义及意义 - (https://www.cnblogs.com/dreamyu/p/11837386.html)
-- PYCON CHINA 2019 - (https://cn.pycon.org/index.html) 
+- PYCON CHINA 2019 - (https://cn.pycon.org/index.html) 只要留意出席的中国讲者的公司背景及职责，就可猜想Python在那公司的应用状况。
 (edited)
