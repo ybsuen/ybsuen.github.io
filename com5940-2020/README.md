@@ -56,7 +56,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 (edited)
 
 ## Lesson 6
--  Coding examples in Flask-SQLAlchemy.  
+-  Coding examples in Flask-SQLAlchemy and jQuery DataTable.
 ## 与第六课相关的文章分享
 - Flask-SQLAlchemy 快速入门(http://www.pythondoc.com/flask-sqlalchemy/quickstart.html)
 - Flask问题集散地：Flask-China (http://greyli.com/flask-china/)
