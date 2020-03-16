@@ -8,7 +8,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Coding examples in JavaScript and Python Jupyter Notebook.
 ## 与第三课相关的文章分享
 - 腾讯与敏捷开发 (https://www.cnblogs.com/huidaoli/p/3551169.html)
-- 浅谈敏捷开发 (https://www.jianshu.com/p/d42aa84c2bd7)
+- 浅谈敏捷开发 (https://www.jianshu.com/p/d42aa84c2bd7) 作者GreyLi在github的推荐阅读是必看点(https://github.com/greyli/flask-china)
 - 扫盲——敏捷开发 Agile development 之 Scrum开发 (https://www.jianshu.com/p/eb8f4448c5c8)
 - 敏捷开发不是口号，是时候分清快速迭代与整体规划了 (http://www.woshipm.com/pd/2402023.html)
 - Google Design Sprint 设计方法介绍 (https://www.jianshu.com/p/608db80f0cd0)
@@ -53,4 +53,28 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 什么是淘宝开放平台(https://open.taobao.com/doc.htm?docId=73&docType=1)
 - 国内值得关注的官方 API 集合 (https://zhuanlan.zhihu.com/p/25121768)
 - 国内主流API市场对比评测 (https://www.jianshu.com/p/3a6e30943a2b)
+(edited)
+
+## Lesson 6
+-  Coding examples in Flask-SQLAlchemy and jQuery DataTable.
+## 与第六课相关的文章分享
+- Flask-SQLAlchemy 快速入门(http://www.pythondoc.com/flask-sqlalchemy/quickstart.html)
+- Flask问题集散地：Flask-China (http://greyli.com/flask-china/)
+- Flask-China作者GreyLi在github的推荐阅读必看(https://github.com/greyli/flask-china)
+- jQueryDataTable row selector - (https://datatables.net/extensions/buttons/examples/print/select.html)
+- jQueryDataTable custom button - (https://datatables.net/extensions/buttons/examples/initialisation/custom.html)
+- C3 Color Pattern - (https://c3js.org/samples/options_color.html)
+- C3 Color - (https://c3js.org/samples/api_data_color.html)
+- How to use Multiple c3 charts on same page - (https://www.oodlestechnologies.com/blogs/How-to-use-Multiple-c3-charts-on-same-page/)
+- Leaflet TileLayer in Grayscale - (https://github.com/Zverik/leaflet-grayscale)
+- JavaScript Popup Form Howto - (https://www.w3schools.com/howto/howto_js_popup_form.asp)
+## 与第六课相关的面试问题及市場需求
+- 2019年最新Python就业薪资怎么样？让人大跌眼镜 (https://blog.csdn.net/ajian6/article/details/90769117?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)
+- Flask job opportunities in USA - (https://www.ziprecruiter.com/Jobs/Python-Flask)
+- Flask job opportunities in HK - (https://www.glassdoor.com.hk/Job/python-flask-jobs-SRCH_KO0,12.htm?countryRedirect=true)
+- RESTful API 设计指南 - (http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+- 用户故事地图 User Story Map - (https://segmentfault.com/a/1190000019655508)
+- 常见的软件测试用例设计方法有哪些呢？ - (https://www.zhihu.com/question/20227936)
+- 单元测试的定义及意义 - (https://www.cnblogs.com/dreamyu/p/11837386.html)
+- PYCON CHINA 2019 - (https://cn.pycon.org/index.html) 只要留意出席的中国讲者的公司背景及职责，就可猜想Python在那公司的应用状况。并且可以从讲者所选讲题洞悉一点趋势。
 (edited)
