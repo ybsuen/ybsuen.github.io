@@ -96,4 +96,3 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 想要跳槽做增长黑客？90%的人挂在在了这份笔试题上: https://www.growthhk.cn/quan/14344.html
 - 全面了解PMF（产品-市场匹配），聚焦用户增长: https://www.growthhk.cn/cgo/14339.html
 - 赛诺贝斯创始人张韬：未来的市场营销会以MarTech为基础，价值获客增长: https://www.growthhk.cn/cgo/market/11728.html
-- 增长黑客/Growth Hacker 20-35K:https://www.zhipin.com/job_detail/45392f57bc0bf31d1XZ_29u6GFs~.html 
