@@ -90,7 +90,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Growth Hacking | 一篇文章告诉你什么是“增长黑客”: http://www.woshipm.com/chuangye/207180.html
 - 初创公司如何利用Growth Hacker实现加速？比如，Airbnb: http://www.woshipm.com/chuangye/272467.html
 ## 与第七课相关的面试问题及市場需求
-- 增长黑客明星榜: http://www.growthhacker.net.cn/
+- 增长黑客明星榜: http://www.growthhacker.net.cn/i/
 - 年薪20万的产品经理和年薪50万的增长黑客，差距在哪里？: https://36kr.com/p/5054432
 - 从引流到裂变增长的流程 — 孙博伍: https://www.growthhk.cn/cgo/28812.html
 - 想要跳槽做增长黑客？90%的人挂在在了这份笔试题上: https://www.growthhk.cn/quan/14344.html
