@@ -77,4 +77,23 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 常见的软件测试用例设计方法有哪些呢？ - (https://www.zhihu.com/question/20227936)
 - 单元测试的定义及意义 - (https://www.cnblogs.com/dreamyu/p/11837386.html)
 - PYCON CHINA 2019 - (https://cn.pycon.org/index.html) 只要留意出席的中国讲者的公司背景及职责，就可猜想Python在那公司的应用状况。并且可以从讲者所选讲题洞悉一点趋势。
-(edited)
+
+## Lesson 7
+-  Coding demonstration in Flask-User, Flask-based Community Blogging, and E-Commerce.
+## 与第七课相关的文章分享
+- The Top Growth Strategies From Your Favorite Startups: https://blog.hubstaff.com/growth-hacking-strategy-examples/
+- 4 Growth Hacking Strategies That Work Like Magic: https://www.entrepreneur.com/article/276641
+- Top 7 Growth Hacking Strategies You Can Try in 2019: https://medium.com/swlh/top-7-growth-hacking-strategies-you-can-try-in-2019-e4612c1c12b5
+- A 4-Step Plan to Create a Growth Hacking Strategy for Your Tech Startup: https://foundr.com/growth-hacking-strategy
+- Growth Hacking Strategies for Startups That Guarantee Success: https://www.cloudways.com/blog/startup-growth-hacking-strategies/#growth-hacking
+- 云上的Growth hacking之路，打造产品的增长引擎: https://blog.csdn.net/chikuai9995/article/details/100723131
+- Growth Hacking | 一篇文章告诉你什么是“增长黑客”: http://www.woshipm.com/chuangye/207180.html
+- 初创公司如何利用Growth Hacker实现加速？比如，Airbnb: http://www.woshipm.com/chuangye/272467.html
+## 与第七课相关的面试问题及市場需求
+- 增长黑客明星榜: http://www.growthhacker.net.cn/
+- 年薪20万的产品经理和年薪50万的增长黑客，差距在哪里？: https://36kr.com/p/5054432
+- 从引流到裂变增长的流程 — 孙博伍: https://www.growthhk.cn/cgo/28812.html
+- 想要跳槽做增长黑客？90%的人挂在在了这份笔试题上: https://www.growthhk.cn/quan/14344.html
+- 全面了解PMF（产品-市场匹配），聚焦用户增长: https://www.growthhk.cn/cgo/14339.html
+- 赛诺贝斯创始人张韬：未来的市场营销会以MarTech为基础，价值获客增长: https://www.growthhk.cn/cgo/market/11728.html
+- 增长黑客/Growth Hacker 20-35K:https://www.zhipin.com/job_detail/45392f57bc0bf31d1XZ_29u6GFs~.html 
