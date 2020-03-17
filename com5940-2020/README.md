@@ -96,5 +96,6 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 想要跳槽做增长黑客？90%的人挂在在了这份笔试题上: https://www.growthhk.cn/quan/14344.html
 - 全面了解PMF（产品-市场匹配），聚焦用户增长: https://www.growthhk.cn/cgo/14339.html
 - 赛诺贝斯创始人张韬：未来的市场营销会以MarTech为基础，价值获客增长: https://www.growthhk.cn/cgo/market/11728.html
+- GrowingIO 的客户案例:https://blog.growingio.com/cases
 - Job description of growth hacker (U.S.): https://www.google.com/search?sxsrf=ALeKk00M1w0JNZcG6kxnWSWdkt3gJUPoFw:1584408912806&ei=UClwXon0MJPa0gSX3LCoCA&q=growth+hackers+job+in+U.S.&oq=growth+hackers+job+in+U.S.&gs_l=psy-ab.3..33i22i29i30.7860.8473..8838...0.0..0.82.403.6......0....1..gws-wiz.......35i39j0i22i30.o87xqMXDLc8&uact=5&ibp=htl;jobs&sa=X&ved=2ahUKEwi6uoCYr6DoAhVPE6YKHc9TAgMQp4wCMAF6BAgNEAE#htidocid=aE5Q3j7Ky0v-fgPGAAAAAA%3D%3D&sxsrf=ALeKk01I1aZYg_NC6w32rS63IpEiY3e8rg:1584408922437
 - Job description of growth hacker (H.K.): https://hk.jobsdb.com/hk/search-jobs/growth-hacker/1?utm_campaign=HK~c:~con~hina~generic~dsa~AO-Long-DSA-EN-Job_(EN)~20181212.1&utm_content=1~1~20181212.1&utm_term=&utm_source=google&utm_medium=cpc&pem=google&gclid=Cj0KCQjwx7zzBRCcARIsABPRscPESsDkrhYfdC4EI2Pd3FkqlTXCJlpAnND7SNmDb3uIOWCAdpYBtFgaAvxYEALw_wcB
