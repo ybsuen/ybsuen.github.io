@@ -77,4 +77,25 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 常见的软件测试用例设计方法有哪些呢？ - (https://www.zhihu.com/question/20227936)
 - 单元测试的定义及意义 - (https://www.cnblogs.com/dreamyu/p/11837386.html)
 - PYCON CHINA 2019 - (https://cn.pycon.org/index.html) 只要留意出席的中国讲者的公司背景及职责，就可猜想Python在那公司的应用状况。并且可以从讲者所选讲题洞悉一点趋势。
-(edited)
+
+## Lesson 7
+-  Coding demonstration in Flask-User, Flask-based Community Blogging, and E-Commerce.
+## 与第七课相关的文章分享
+- The Top Growth Strategies From Your Favorite Startups: https://blog.hubstaff.com/growth-hacking-strategy-examples/
+- 4 Growth Hacking Strategies That Work Like Magic: https://www.entrepreneur.com/article/276641
+- Top 7 Growth Hacking Strategies You Can Try in 2019: https://medium.com/swlh/top-7-growth-hacking-strategies-you-can-try-in-2019-e4612c1c12b5
+- A 4-Step Plan to Create a Growth Hacking Strategy for Your Tech Startup: https://foundr.com/growth-hacking-strategy
+- Growth Hacking Strategies for Startups That Guarantee Success: https://www.cloudways.com/blog/startup-growth-hacking-strategies/#growth-hacking
+- 云上的Growth hacking之路，打造产品的增长引擎: https://blog.csdn.net/chikuai9995/article/details/100723131
+- Growth Hacking | 一篇文章告诉你什么是“增长黑客”: http://www.woshipm.com/chuangye/207180.html
+- 初创公司如何利用Growth Hacker实现加速？比如，Airbnb: http://www.woshipm.com/chuangye/272467.html
+## 与第七课相关的面试问题及市場需求
+- 增长黑客明星榜: http://www.growthhacker.net.cn/i/
+- 年薪20万的产品经理和年薪50万的增长黑客，差距在哪里？: https://36kr.com/p/5054432
+- 从引流到裂变增长的流程 — 孙博伍: https://www.growthhk.cn/cgo/28812.html
+- 想要跳槽做增长黑客？90%的人挂在在了这份笔试题上: https://www.growthhk.cn/quan/14344.html
+- 全面了解PMF（产品-市场匹配），聚焦用户增长: https://www.growthhk.cn/cgo/14339.html
+- 赛诺贝斯创始人张韬：未来的市场营销会以MarTech为基础，价值获客增长: https://www.growthhk.cn/cgo/market/11728.html
+- GrowingIO 的客户案例:https://blog.growingio.com/cases
+- Job description of growth hacker (U.S.): https://www.google.com/search?sxsrf=ALeKk00M1w0JNZcG6kxnWSWdkt3gJUPoFw:1584408912806&ei=UClwXon0MJPa0gSX3LCoCA&q=growth+hackers+job+in+U.S.&oq=growth+hackers+job+in+U.S.&gs_l=psy-ab.3..33i22i29i30.7860.8473..8838...0.0..0.82.403.6......0....1..gws-wiz.......35i39j0i22i30.o87xqMXDLc8&uact=5&ibp=htl;jobs&sa=X&ved=2ahUKEwi6uoCYr6DoAhVPE6YKHc9TAgMQp4wCMAF6BAgNEAE#htidocid=aE5Q3j7Ky0v-fgPGAAAAAA%3D%3D&sxsrf=ALeKk01I1aZYg_NC6w32rS63IpEiY3e8rg:1584408922437
+- Job description of growth hacker (H.K.): https://hk.jobsdb.com/hk/search-jobs/growth-hacker/1?utm_campaign=HK~c:~con~hina~generic~dsa~AO-Long-DSA-EN-Job_(EN)~20181212.1&utm_content=1~1~20181212.1&utm_term=&utm_source=google&utm_medium=cpc&pem=google&gclid=Cj0KCQjwx7zzBRCcARIsABPRscPESsDkrhYfdC4EI2Pd3FkqlTXCJlpAnND7SNmDb3uIOWCAdpYBtFgaAvxYEALw_wcB
