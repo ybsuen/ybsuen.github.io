@@ -99,3 +99,31 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - GrowingIO 的客户案例:https://blog.growingio.com/cases
 - Job description of growth hacker (U.S.): https://www.google.com/search?sxsrf=ALeKk00M1w0JNZcG6kxnWSWdkt3gJUPoFw:1584408912806&ei=UClwXon0MJPa0gSX3LCoCA&q=growth+hackers+job+in+U.S.&oq=growth+hackers+job+in+U.S.&gs_l=psy-ab.3..33i22i29i30.7860.8473..8838...0.0..0.82.403.6......0....1..gws-wiz.......35i39j0i22i30.o87xqMXDLc8&uact=5&ibp=htl;jobs&sa=X&ved=2ahUKEwi6uoCYr6DoAhVPE6YKHc9TAgMQp4wCMAF6BAgNEAE#htidocid=aE5Q3j7Ky0v-fgPGAAAAAA%3D%3D&sxsrf=ALeKk01I1aZYg_NC6w32rS63IpEiY3e8rg:1584408922437
 - Job description of growth hacker (H.K.): https://hk.jobsdb.com/hk/search-jobs/growth-hacker/1?utm_campaign=HK~c:~con~hina~generic~dsa~AO-Long-DSA-EN-Job_(EN)~20181212.1&utm_content=1~1~20181212.1&utm_term=&utm_source=google&utm_medium=cpc&pem=google&gclid=Cj0KCQjwx7zzBRCcARIsABPRscPESsDkrhYfdC4EI2Pd3FkqlTXCJlpAnND7SNmDb3uIOWCAdpYBtFgaAvxYEALw_wcB
+
+## Lesson 8
+- Coding examples in Python BeautifulSoup and demonstration of Virtuanl Machine and Cloud Services.
+## 与第八课相关的文章分享
+- Why web data acquisition is one of the biggest pain points in the data industry?: https://www.promptcloud.com/blog/why-web-data-acquisition-is-one-of-the-biggest-pain-points-in-the-data-industry/  
+- Data Scraping: A Must Have for Your Data Collection Strategy: https://www.datahen.com/blog/data-scraping-data-collection-strategy-needs/
+- How Web Scraping is Transforming the World with its Applications: https://towardsdatascience.com/https-medium-com-hiren787-patel-web-scraping-applications-a6f370d316f4 
+- 大数据采集之网络爬虫的基本流程及抓取策略: http://collection.zhizuobiao.com/collection-19011800045/
+- 如何应对网站反爬虫策略？如何高效地爬大量数据: https://zhidao.baidu.com/question/922579270961449139.html?fr=iks&word=%CD%F8%D2%B3%D7%A5%C8%A1%B2%DF%C2%D4&ie=gbk
+- 7 Key Cloud Computing Trends That Will Shape Enterprise Computing In 2020: https://www.entrepreneur.com/article/345826
+- TOP 5 CLOUD COMPUTING TRENDS OF 2020: https://www.analyticsinsight.net/top-5-cloud-computing-trends-of-2020/
+- 云计算的8项核心技术: https://cloud.tencent.com/developer/article/1048760
+- 云计算的核心技术与核心理念: https://wenku.baidu.com/view/7711434a647d27284b7351fb.html
+- 微课堂 | 云计算平台架构设计与核心流程 (大師级文章): https://cloud.tencent.com/developer/article/1080047
+- 如何从物联网的角度保护云计算: http://news.west.cn/71950.html
+- 云计算技术发展的六大趋势: https://cloud.tencent.com/developer/article/1071289
+
+## 与第八课相关的面试问题及市場需求
+- Gartner Forecasts Worldwide Public Cloud Revenue to Grow 17% in 2020: https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-forecasts-worldwide-public-cloud-revenue-to-grow-17-percent-in-2020
+- Cloud in 2020: Key market trends: https://www.cloud-kinetics.com/cloud-in-2020-key-market-trends/
+- 中国云计算市场格局生变：百度第三亚马逊变others: http://finance.sina.com.cn/stock/relnews/us/2020-03-23/doc-iimxxsth1264373.shtml
+- 2020年全面上云，以年为期看好云计算: https://baijiahao.baidu.com/s?id=1658379778140966474&wfr=spider&for=pc
+- 业务上云是未来趋势:https://cloud.tencent.com/developer/article/1460079
+- 腾讯云 TCE 解决方案: https://cloud.tencent.com/solution/tce
+- 云计算是最有价值是其商业模式: https://cloud.tencent.com/developer/article/1066680
+- 微软核心战略转移 由设备转向云计算: https://cloud.tencent.com/developer/article/1065159
+- 云计算对BAT来说是一次飞跃: https://cloud.tencent.com/developer/article/1066694
+- 云计算名人语录: https://cloud.tencent.com/developer/article/1102452
