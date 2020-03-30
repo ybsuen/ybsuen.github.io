@@ -130,14 +130,14 @@ This is the place where you can find the supporting materials used in COM5940 - 
 
 ## Lesson 9
 - Coding examples in Python NumPy, Pandas, Matplotlib, and Seaborn and demonstration of Docker container and AWS EC2.
-## 与第八课相关的文章分享
+## 与第九课相关的文章分享
 - Creating Pandas DataFrames from Lists and Dictionaries (https://pbpython.com/pandas-list-dict.html)
 - Data Handling Using Pandas: Cleaning and Processing (https://towardsdatascience.com/data-handling-using-pandas-cleaning-and-processing-3aa657dc9418)
+- Data Cleaning with Python and Pandas: Detecting Missing Values (https://towardsdatascience.com/data-cleaning-with-python-and-pandas-detecting-missing-values-3e9c6ebcf78b)
+- Find the duplicate rows of the dataframe in python pandas (http://www.datasciencemadesimple.com/find-duplicate-rows-dataframe-python-pandas/)
 - Learning Python: Part 1 - Scraping and Cleaning the NBA Draft (http://savvastjortjoglou.com/nba-draft-part01-scraping.html)
 - Learning Python: Part 2 - Visualizing the NBA Draft (http://savvastjortjoglou.com/nba-draft-part02-visualizing.html)
 - What Is Function-as-a-Service? Serverless Architectures Are Here! (https://stackify.com/function-as-a-service-serverless-architecture/)
-- Data Cleaning with Python and Pandas: Detecting Missing Values (https://towardsdatascience.com/data-cleaning-with-python-and-pandas-detecting-missing-values-3e9c6ebcf78b)
-- Find the duplicate rows of the dataframe in python pandas (http://www.datasciencemadesimple.com/find-duplicate-rows-dataframe-python-pandas/)
 - Virtual Machines vs Containers vs Serverless Computing: Everything You Need to Know (https://dotcms.com/blog/post/virtual-machines-vs-containers-vs-serverless-computing-everything-you-need-to-know)
 - What’s Your Choice? VM, Container or Serverless (https://medium.com/simplex-internet-blog/compare-and-contrast-vm-containers-serverless-21062f3c16ed)
 - 什么是Serverless? (https://www.cnblogs.com/limengchun/p/11936065.html)
@@ -145,7 +145,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Serverless应用场景 (https://helpcdn.aliyun.com/document_detail/65565.html)
 - Serverless 背景下的前端困境与解决方案 (https://developer.aliyun.com/article/726945?spm=a2c6h.12873639.0.0.1d545a8dWPG7U5)
 
-## 与第八课相关的面试问题及市場需求
+## 与第九课相关的面试问题及市場需求
 - Report: AWS Lambda Dominates as Serverless Adoption Grows (https://www.informationweek.com/cloud/report-aws-lambda-dominates-as-serverless-adoption-grows/a/d-id/1337002)
 - 前端为什么要关注 Serverless? (https://www.zhihu.com/question/378776917)
 - 为什么说每个开发者都应该关注Serverless？(https://baijiahao.baidu.com/s?id=1662310986538141292&wfr=spider&for=pc)
