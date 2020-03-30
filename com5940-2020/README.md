@@ -137,6 +137,8 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Find the duplicate rows of the dataframe in python pandas (http://www.datasciencemadesimple.com/find-duplicate-rows-dataframe-python-pandas/)
 - Learning Python: Part 1 - Scraping and Cleaning the NBA Draft (http://savvastjortjoglou.com/nba-draft-part01-scraping.html)
 - Learning Python: Part 2 - Visualizing the NBA Draft (http://savvastjortjoglou.com/nba-draft-part02-visualizing.html)
+- Introduction to Matplotlib in Python (https://towardsdatascience.com/introduction-to-matplotlib-in-python-5f5a9919991f)
+- Python Seaborn Tutorial For Beginners (https://www.datacamp.com/community/tutorials/seaborn-python-tutorial)
 - What Is Function-as-a-Service? Serverless Architectures Are Here! (https://stackify.com/function-as-a-service-serverless-architecture/)
 - Virtual Machines vs Containers vs Serverless Computing: Everything You Need to Know (https://dotcms.com/blog/post/virtual-machines-vs-containers-vs-serverless-computing-everything-you-need-to-know)
 - What’s Your Choice? VM, Container or Serverless (https://medium.com/simplex-internet-blog/compare-and-contrast-vm-containers-serverless-21062f3c16ed)
