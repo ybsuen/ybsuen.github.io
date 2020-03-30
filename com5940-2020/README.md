@@ -99,3 +99,61 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - GrowingIO 的客户案例:https://blog.growingio.com/cases
 - Job description of growth hacker (U.S.): https://www.google.com/search?sxsrf=ALeKk00M1w0JNZcG6kxnWSWdkt3gJUPoFw:1584408912806&ei=UClwXon0MJPa0gSX3LCoCA&q=growth+hackers+job+in+U.S.&oq=growth+hackers+job+in+U.S.&gs_l=psy-ab.3..33i22i29i30.7860.8473..8838...0.0..0.82.403.6......0....1..gws-wiz.......35i39j0i22i30.o87xqMXDLc8&uact=5&ibp=htl;jobs&sa=X&ved=2ahUKEwi6uoCYr6DoAhVPE6YKHc9TAgMQp4wCMAF6BAgNEAE#htidocid=aE5Q3j7Ky0v-fgPGAAAAAA%3D%3D&sxsrf=ALeKk01I1aZYg_NC6w32rS63IpEiY3e8rg:1584408922437
 - Job description of growth hacker (H.K.): https://hk.jobsdb.com/hk/search-jobs/growth-hacker/1?utm_campaign=HK~c:~con~hina~generic~dsa~AO-Long-DSA-EN-Job_(EN)~20181212.1&utm_content=1~1~20181212.1&utm_term=&utm_source=google&utm_medium=cpc&pem=google&gclid=Cj0KCQjwx7zzBRCcARIsABPRscPESsDkrhYfdC4EI2Pd3FkqlTXCJlpAnND7SNmDb3uIOWCAdpYBtFgaAvxYEALw_wcB
+
+## Lesson 8
+- Coding examples in Python BeautifulSoup and demonstration of Virtuanl Machine and Cloud Services.
+## 与第八课相关的文章分享
+- Why web data acquisition is one of the biggest pain points in the data industry?: https://www.promptcloud.com/blog/why-web-data-acquisition-is-one-of-the-biggest-pain-points-in-the-data-industry/  
+- Data Scraping: A Must Have for Your Data Collection Strategy: https://www.datahen.com/blog/data-scraping-data-collection-strategy-needs/
+- How Web Scraping is Transforming the World with its Applications: https://towardsdatascience.com/https-medium-com-hiren787-patel-web-scraping-applications-a6f370d316f4 
+- 大数据采集之网络爬虫的基本流程及抓取策略: http://collection.zhizuobiao.com/collection-19011800045/
+- 如何应对网站反爬虫策略？如何高效地爬大量数据: https://zhidao.baidu.com/question/922579270961449139.html?fr=iks&word=%CD%F8%D2%B3%D7%A5%C8%A1%B2%DF%C2%D4&ie=gbk
+- 7 Key Cloud Computing Trends That Will Shape Enterprise Computing In 2020: https://www.entrepreneur.com/article/345826
+- TOP 5 CLOUD COMPUTING TRENDS OF 2020: https://www.analyticsinsight.net/top-5-cloud-computing-trends-of-2020/
+- 云计算的8项核心技术: https://cloud.tencent.com/developer/article/1048760
+- 云计算的核心技术与核心理念: https://wenku.baidu.com/view/7711434a647d27284b7351fb.html
+- 微课堂 | 云计算平台架构设计与核心流程 (大師级文章): https://cloud.tencent.com/developer/article/1080047
+- 如何从物联网的角度保护云计算: http://news.west.cn/71950.html
+- 云计算技术发展的六大趋势: https://cloud.tencent.com/developer/article/1071289
+
+## 与第八课相关的面试问题及市場需求
+- Gartner Forecasts Worldwide Public Cloud Revenue to Grow 17% in 2020: https://www.gartner.com/en/newsroom/press-releases/2019-11-13-gartner-forecasts-worldwide-public-cloud-revenue-to-grow-17-percent-in-2020
+- Cloud in 2020: Key market trends: https://www.cloud-kinetics.com/cloud-in-2020-key-market-trends/
+- 中国云计算市场格局生变：百度第三亚马逊变others: http://finance.sina.com.cn/stock/relnews/us/2020-03-23/doc-iimxxsth1264373.shtml
+- 2020年全面上云，以年为期看好云计算: https://baijiahao.baidu.com/s?id=1658379778140966474&wfr=spider&for=pc
+- 业务上云是未来趋势:https://cloud.tencent.com/developer/article/1460079
+- 腾讯云 TCE 解决方案: https://cloud.tencent.com/solution/tce
+- 云计算是最有价值是其商业模式: https://cloud.tencent.com/developer/article/1066680
+- 微软核心战略转移 由设备转向云计算: https://cloud.tencent.com/developer/article/1065159
+- 云计算对BAT来说是一次飞跃: https://cloud.tencent.com/developer/article/1066694
+- 云计算名人语录: https://cloud.tencent.com/developer/article/1102452
+
+## Lesson 9
+- Coding examples in Python NumPy, Pandas, Matplotlib, and Seaborn and demonstration of Docker container and AWS EC2.
+## 与第九课相关的文章分享
+- Creating Pandas DataFrames from Lists and Dictionaries (https://pbpython.com/pandas-list-dict.html)
+- Data Handling Using Pandas: Cleaning and Processing (https://towardsdatascience.com/data-handling-using-pandas-cleaning-and-processing-3aa657dc9418)
+- Data Cleaning with Python and Pandas: Detecting Missing Values (https://towardsdatascience.com/data-cleaning-with-python-and-pandas-detecting-missing-values-3e9c6ebcf78b)
+- Find the duplicate rows of the dataframe in python pandas (http://www.datasciencemadesimple.com/find-duplicate-rows-dataframe-python-pandas/)
+- Learning Python: Part 1 - Scraping and Cleaning the NBA Draft (http://savvastjortjoglou.com/nba-draft-part01-scraping.html)
+- Learning Python: Part 2 - Visualizing the NBA Draft (http://savvastjortjoglou.com/nba-draft-part02-visualizing.html)
+- Introduction to Matplotlib in Python (https://towardsdatascience.com/introduction-to-matplotlib-in-python-5f5a9919991f)
+- Python Seaborn Tutorial For Beginners (https://www.datacamp.com/community/tutorials/seaborn-python-tutorial)
+- What Is Function-as-a-Service? Serverless Architectures Are Here! (https://stackify.com/function-as-a-service-serverless-architecture/)
+- Virtual Machines vs Containers vs Serverless Computing: Everything You Need to Know (https://dotcms.com/blog/post/virtual-machines-vs-containers-vs-serverless-computing-everything-you-need-to-know)
+- What’s Your Choice? VM, Container or Serverless (https://medium.com/simplex-internet-blog/compare-and-contrast-vm-containers-serverless-21062f3c16ed)
+- 什么是Serverless? (https://www.cnblogs.com/limengchun/p/11936065.html)
+- Serverless简介 (https://www.cnblogs.com/Bkxk/p/11139928.html)
+- Serverless应用场景 (https://helpcdn.aliyun.com/document_detail/65565.html)
+- Serverless 背景下的前端困境与解决方案 (https://developer.aliyun.com/article/726945?spm=a2c6h.12873639.0.0.1d545a8dWPG7U5)
+
+## 与第九课相关的面试问题及市場需求
+- Report: AWS Lambda Dominates as Serverless Adoption Grows (https://www.informationweek.com/cloud/report-aws-lambda-dominates-as-serverless-adoption-grows/a/d-id/1337002)
+- 前端为什么要关注 Serverless? (https://www.zhihu.com/question/378776917)
+- 为什么说每个开发者都应该关注Serverless？(https://baijiahao.baidu.com/s?id=1662310986538141292&wfr=spider&for=pc)
+- Serverless爆发，AWS微软卡位，腾讯云阿里云华为云紧跟 (http://www.soft6.com/news/202003/17/364145.html)
+- Serverless 的前景和机会 |社区精选文章 (https://cloud.tencent.com/developer/article/1594087)
+- Serverless 现状研究报告 (https://baijiahao.baidu.com/s?id=1662081938269814895&wfr=spider&for=pc)
+- 直播 | 挑战不可能！闲鱼Serverless + Flutter研发效率提升30% (http://vlambda.com/wz_xcDBGSXBiE.html)
+
+
