@@ -171,7 +171,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 如何成为人工智能（AI）产品经理 (https://cloud.tencent.com/developer/article/1166762)
 - 转型AI产品经理需要掌握的硬知识（一）：AI产品经理能力模型和常见AI概念梳理 (http://www.woshipm.com/pd/873240.html)
 - 转型AI产品经理需要掌握的硬知识 (二)：AI常见概念和算法梳理 (http://www.woshipm.com/pmd/883264.html)
-- 转型AI产品经理需要掌握的硬知识（三）：2B和2C类AI产品&公司&脑洞 (https://cloud.tencent.com/developer/article/1196014)
+- 转型AI产品经理需要掌握的硬知识（三）(放在与第十课相关的面试问题及市場需求部分)
 
 ## 与第十课相关的面试问题及市場需求
 - What do employers think about mentions of Kaggle competitions on a job application? (https://www.quora.com/What-do-employers-think-about-mentions-of-Kaggle-competitions-on-a-job-application)
