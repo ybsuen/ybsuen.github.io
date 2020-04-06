@@ -172,6 +172,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 转型AI产品经理需要掌握的硬知识（三）：2B和2C类AI产品&公司&脑洞 (https://cloud.tencent.com/developer/article/1196014)
 
 ## 与第十课相关的面试问题及市場需求
+- What do employers think about mentions of Kaggle competitions on a job application? (https://www.quora.com/What-do-employers-think-about-mentions-of-Kaggle-competitions-on-a-job-application)
 - 为什么Kaggle对找工作有帮助？如何入门？(https://zhuanlan.zhihu.com/p/34267170)
 - Kaggle比赛心得 (https://www.jianshu.com/p/47282e2fc5d7)
 - kaggle比赛经历对于找算法类的工作有帮助吗？(https://www.zhihu.com/question/313054546/answer/604347225)
