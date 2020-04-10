@@ -156,4 +156,33 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Serverless 现状研究报告 (https://baijiahao.baidu.com/s?id=1662081938269814895&wfr=spider&for=pc)
 - 直播 | 挑战不可能！闲鱼Serverless + Flutter研发效率提升30% (http://vlambda.com/wz_xcDBGSXBiE.html)
 
+## Lesson 10
+- Coding examples in Python BeautifulSoup, NumPy, SciPy, Pandas, Matplotlib, and Scikitlearn and demonstration of Kaggle.com.
+
+## 与第十课相关的文章分享
+- 10 Companies Using Machine Learning in Cool Ways (https://www.wordstream.com/blog/ws/2017/07/28/machine-learning-applications)
+- Top 20 Best AI Examples and Machine Learning Applications (https://www.ubuntupit.com/top-20-best-machine-learning-applications-in-real-world/)
+- Top 10 Applications of Machine Learning : Machine Learning Applications in Daily Life (https://www.edureka.co/blog/machine-learning-applications/)
+- The CIO’s Guide to Artificial Intelligence (https://www.gartner.com/smarterwithgartner/the-cios-guide-to-artificial-intelligence/)
+- IDC Survey Finds Artificial Intelligence to be a Priority for Organizations But Few Have Implemented an Enterprise-Wide Strategy (https://www.idc.com/getdoc.jsp?containerId=prUS45344519)
+- What Data Scientists Really Do, According to 35 Data Scientists (https://hbr.org/2018/08/what-data-scientists-really-do-according-to-35-data-scientists?referral=03758&cm_vc=rr_item_page.top_right)
+- Data Scientist: The Sexiest Job of the 21st Century (https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)
+- 什么是机器学习？ (https://www.zhihu.com/question/33892253/answer/602901993)
+- 如何成为人工智能（AI）产品经理 (https://cloud.tencent.com/developer/article/1166762)
+- 转型AI产品经理需要掌握的硬知识（一）：AI产品经理能力模型和常见AI概念梳理 (http://www.woshipm.com/pd/873240.html)
+- 转型AI产品经理需要掌握的硬知识 (二)：AI常见概念和算法梳理 (http://www.woshipm.com/pmd/883264.html)
+- 转型AI产品经理需要掌握的硬知识（三）(放在与第十课相关的面试问题及市場需求部分)
+
+## 与第十课相关的面试问题及市場需求
+- What do employers think about mentions of Kaggle competitions on a job application? (https://www.quora.com/What-do-employers-think-about-mentions-of-Kaggle-competitions-on-a-job-application)
+- 为什么Kaggle对找工作有帮助？如何入门？(https://zhuanlan.zhihu.com/p/34267170)
+- Kaggle比赛心得 (https://www.jianshu.com/p/47282e2fc5d7)
+- kaggle比赛经历对于找算法类的工作有帮助吗？(https://www.zhihu.com/question/313054546/answer/604347225)
+- Kaggle 的比赛在 Machine Learning 领域中属于什么地位？(https://www.zhihu.com/question/32032932)
+- 参加kaggle竞赛是怎样一种体验？(https://blog.csdn.net/resourse_sharing/article/details/51606316)
+- Top Artificial Intelligence (AI) Predictions For 2020 From IDC and Forrester (https://www.forbes.com/sites/gilpress/2019/11/22/top-artificial-intelligence-ai-predictions-for-2020-from-idc-and-forrester/#4e0a3b7c315a)
+- IDC: Top 10 worldwide IT predictions for 2020 (https://www.techrepublic.com/article/idc-top-10-worldwide-it-predictions-for-2020/)
+- Gartner Predicts the Future of AI Technologies (https://www.gartner.com/smarterwithgartner/gartner-predicts-the-future-of-ai-technologies/)
+- 如何入行成为AI产品经理？（附腾讯、蚂蚁金服、YY、商汤AI产品经理面试题）(https://zhuanlan.zhihu.com/p/33524676)
+- 转型AI产品经理需要掌握的硬知识（三）：2B和2C类AI产品&公司&脑洞 (https://cloud.tencent.com/developer/article/1196014)
 
