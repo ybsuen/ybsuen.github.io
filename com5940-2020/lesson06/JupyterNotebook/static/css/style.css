@@ -1,0 +1,22 @@
+#mapid { height: 180px; }
+
+/* Sidebar effects */
+.navbar.navbar-default.navbar-fixed-top {
+  margin-bottom:0px;
+}
+#loginout {
+background-color:black;
+position: relative;
+margin-right: -6%;
+margin-bottom: 0%;
+}
+#loginout_hover:hover {
+color:white;
+background:#404040;
+}
+
+.paginate_button, .paginate_button.active, .paginate_button.previous.disabled, .paginate_button.next {
+     margin: 0px !important;
+     border: 0px !important;
+     padding:0px !important;
+   }

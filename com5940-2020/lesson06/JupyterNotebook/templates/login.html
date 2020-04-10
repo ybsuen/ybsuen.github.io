@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1><center>
+    
+  {% if current_user.is_authenticated %}
+    <p>You're already login.</p>
+  {% else %}
+      <p>{{message}}</p>
+  {% endif %}       
+   </center></h1>  
+  {% if not current_user.is_authenticated %}  
+  <form method="post" action="/form_auth">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form> 
+  {% endif %} 
+
+{% endblock %}
