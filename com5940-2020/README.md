@@ -186,3 +186,30 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 如何入行成为AI产品经理？（附腾讯、蚂蚁金服、YY、商汤AI产品经理面试题）(https://zhuanlan.zhihu.com/p/33524676)
 - 转型AI产品经理需要掌握的硬知识（三）：2B和2C类AI产品&公司&脑洞 (https://cloud.tencent.com/developer/article/1196014)
 
+## Lesson 11
+- Coding examples in Orange3 and Python Scikit-learn. Introduction to Tensorflow Colab web site.
+
+## 与第十一课相关的文章分享
+- Microsoft Azure Artificial Intelligence (AI) strategy and solutions:https://docs.microsoft.com/en-gb/learn/modules/azure-artificial-intelligence/
+- Build AI solutions with Azure Machine Learning:https://docs.microsoft.com/en-gb/learn/paths/build-ai-solutions-with-azure-ml-service/
+- TensorFlow Core: https://www.tensorflow.org/overview
+- Start Training on Machine Learning with AWS: https://aws.amazon.com/training/learning-paths/machine-learning/ 
+- Preview Course: Introduction to Deep Learning: https://www.aws.training/Details/Video?id=16439&trk=gs_card
+- 使用Flask构建机器学习模型API (https://www.cnblogs.com/chenxiangzhen/p/11833283.html)
+- 使用Flask REST API进行Python机器学习预测 - http://www.srcmini.com/42615.html
+- 生产环境中进行机器学习模型部署（using Flask）- https://zhuanlan.zhihu.com/p/42418356
+- 使用Python Flask发布机器学习API (https://cloud.tencent.com/developer/article/1449647)
+- 为你的机器学习模型创建一个API服务 (http://www.imooc.com/article/259009)
+
+
+## 与第十一课相关的面试问题及市場需求
+- 为什么说爱奇艺是一家技术公司? - https://cloud.tencent.com/developer/article/1430210
+- Python与人工智能的关系原来是这样的...https://cloud.tencent.com/developer/article/1161025
+- 小学生都学Python了，你还不知道怎么开始 - https://cloud.tencent.com/developer/article/1036660
+- 号外！号外！Python纳入高考内容了！人工智能时代就要来临了！https://cloud.tencent.com/developer/article/1024699
+- Python最新平均薪资20680元！学了Python能做什么岗位？https://cloud.tencent.com/developer/article/1460495
+- Python这么火，我可以学吗？https://cloud.tencent.com/developer/article/1596891
+- 零基础的小白，如何学Python才能更快就业？https://cloud.tencent.com/developer/article/1497964
+- 只学Python能找到工作吗？还需要学习什么技能？https://cloud.tencent.com/developer/article/1614975
+- Python的应用领域: https://cloud.tencent.com/developer/article/1567630
+- 除了人工智能，Python还在哪些领域有着深入应用？https://cloud.tencent.com/developer/article/1490720
