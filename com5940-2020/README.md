@@ -196,13 +196,20 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Start Training on Machine Learning with AWS: https://aws.amazon.com/training/learning-paths/machine-learning/ 
 - Preview Course: Introduction to Deep Learning: https://www.aws.training/Details/Video?id=16439&trk=gs_card
 - 使用Flask构建机器学习模型API (https://www.cnblogs.com/chenxiangzhen/p/11833283.html)
-- 使用Flask REST API进行Python机器学习预测 - http://www.srcmini.com/42615.html
-- 生产环境中进行机器学习模型部署（using Flask）- https://zhuanlan.zhihu.com/p/42418356
-- 使用Python Flask发布机器学习API (https://cloud.tencent.com/developer/article/1449647)
-- 为你的机器学习模型创建一个API服务 (http://www.imooc.com/article/259009)
+- 使用Flask REST API进行Python机器学习预测: http://www.srcmini.com/42615.html
+- 生产环境中进行机器学习模型部署（using Flask: https://zhuanlan.zhihu.com/p/42418356
+- 使用Python Flask发布机器学习API: https://cloud.tencent.com/developer/article/1449647
+- 为你的机器学习模型创建一个API服务: http://www.imooc.com/article/259009
+- 机器学习PAI - https://data.aliyun.com/product/learn
+- 机器学习PAI快速入门与业务实战: https://www.jianshu.com/p/afd888b6957e
+- 机器学习入门训练数据源去哪里找: https://developer.aliyun.com/ask/127830?spm=a2c6h.13159736
+- 智能钛AI开发者: https://cloud.tencent.com/developer/timl
 
 
 ## 与第十一课相关的面试问题及市場需求
+- 机器学习平台PAI2.0 阿里“NASA”首个重磅武器亮相: https://www.jianshu.com/p/618d74b2e8f0
+- 机器学习帮助您挖掘金融欺诈用户: https://data.aliyun.com/experience/case4
+- 【2020腾讯广告算法大赛】什么是智能钛机器学习平台: https://cloud.tencent.com/developer/article/1613816
 - 为什么说爱奇艺是一家技术公司? - https://cloud.tencent.com/developer/article/1430210
 - Python与人工智能的关系原来是这样的...https://cloud.tencent.com/developer/article/1161025
 - 小学生都学Python了，你还不知道怎么开始 - https://cloud.tencent.com/developer/article/1036660
