@@ -208,6 +208,8 @@ This is the place where you can find the supporting materials used in COM5940 - 
 
 
 ## 与第十一课相关的面试问题及市場需求
+- 了解腾讯云人工智能的能力:https://cloud.tencent.com/edu/learning/course-1675-12052
+- 如何快速打造一款AI互联网应用:https://cloud.tencent.com/edu/learning/course-1675-12053
 - 机器学习平台PAI2.0 阿里“NASA”首个重磅武器亮相: https://www.jianshu.com/p/618d74b2e8f0
 - 机器学习帮助您挖掘金融欺诈用户: https://data.aliyun.com/experience/case4
 - 【2020腾讯广告算法大赛】什么是智能钛机器学习平台: https://cloud.tencent.com/developer/article/1613816
