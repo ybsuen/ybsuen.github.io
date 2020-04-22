@@ -204,6 +204,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 机器学习PAI快速入门与业务实战: https://www.jianshu.com/p/afd888b6957e
 - 机器学习入门训练数据源去哪里找: https://developer.aliyun.com/ask/127830?spm=a2c6h.13159736
 - 智能钛AI开发者: https://cloud.tencent.com/developer/timl
+- 百度机器学习 BML:https://cloud.baidu.com/doc/BML/index.html 
 
 
 ## 与第十一课相关的面试问题及市場需求
