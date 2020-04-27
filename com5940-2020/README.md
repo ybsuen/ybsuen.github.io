@@ -237,11 +237,6 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 产品经理如何理解“精益创业” http://www.timekr.com/archives/131
 - 我的精益创业实践: http://www.woshipm.com/xiazai/77446.html
 - 产品经理眼中的「精益创业」https://zhuanlan.zhihu.com/p/20274578
-- Google Analytics 在国内能使用吗? 会不会不准?: https://ask.csdn.net/questions/382411
-- Google-analytics在中国大陆可以使用吗: https://ask.csdn.net/questions/382411
-- 2020年最详细的Google analytics使用教程: https://zhuanlan.zhihu.com/p/76139981
-- 国内网站博客数据统计选免费Google Analytics还是百度统计: https://www.freehao123.com/google-analytics-baidu-tongji/
-- Matomo:PHP免费开源统计系统可以与谷歌统计较量: https://t00ts.com/354.htm
 - Matomo免费开源的PHP统计系统 简单定制私有化可媲美谷歌统计的强大统计系统: https://www.wanvi.net/10428.html
 - Matomo初探系列之（一）Matomo工作原理: http://www.matomo.net.cn/2018/12/matomo-how-to-work/
 - matomo的安装使用和体验: https://yq.aliyun.com/articles/530337
@@ -256,5 +251,10 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Tutorial to deploy Machine Learning models in Production as APIs (using Flask):https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
 - What Is Amazon SageMaker? https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
 - Develop and run code from anywhere with Jupyter notebooks on Azure. https://notebooks.azure.com/
+- Google Analytics 在国内能使用吗? 会不会不准?: https://ask.csdn.net/questions/382411
+- Google-analytics在中国大陆可以使用吗: https://ask.csdn.net/questions/382411
+- 2020年最详细的Google analytics使用教程: https://zhuanlan.zhihu.com/p/76139981
+- 国内网站博客数据统计选免费Google Analytics还是百度统计: https://www.freehao123.com/google-analytics-baidu-tongji/
+- Matomo:PHP免费开源统计系统可以与谷歌统计较量: https://t00ts.com/354.htm
 
 
