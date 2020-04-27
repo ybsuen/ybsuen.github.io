@@ -251,7 +251,6 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 多角度对比分析阿里云服务器和腾讯云服务器那个好？: https://www.yunqikan.cn/2246.html
 - 人工智能遇冷，腾讯云升级之后的大数据AI版图: https://www.leiphone.com/news/201912/oQ491ltA7uiDbatb.html
 - CSIG背后，腾讯云在腾讯战略升级中扮演什么角色？: https://www.iyiou.com/p/82582.html
-- “腾讯云分析”发布今年一季度移动行业数据报告：“UC浏览器”是男生装机必备，女生则多离不开“淘宝”和“美图秀秀”: https://www.36kr.com/p/212204
 - Azure notebook vs Google colab: https://placeless.net/blog/microsoft-azure-notebook-vs-google-colab
 - Integrating Google Colaboratory into Your Machine Learning Workflow: https://nholmber.github.io/2018/09/google-colab/
 - Tutorial to deploy Machine Learning models in Production as APIs (using Flask):https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
