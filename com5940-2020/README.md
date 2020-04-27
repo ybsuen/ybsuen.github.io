@@ -223,3 +223,39 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - 只学Python能找到工作吗？还需要学习什么技能？https://cloud.tencent.com/developer/article/1614975
 - Python的应用领域: https://cloud.tencent.com/developer/article/1567630
 - 除了人工智能，Python还在哪些领域有着深入应用？https://cloud.tencent.com/developer/article/1490720
+
+## Lesson 12
+- Software demonstration of Google Analytics and Matomo.
+
+## 与第十二课相关的文章分享
+- What is a pitch deck? https://pitchdeck.improvepresentation.com/what-is-a-pitch-deck
+- Powerful pitch decks that help you get funded https://pitchdeck.io/
+- Pitch Deck examples from successful startups (Airbnb, Uber, Facebook)  https://slidebean.com/blog/startups-pitch-deck-examples
+- 30 Legendary Startup Pitch Decks And What You Can Learn From Them https://piktochart.com/blog/startup-pitch-decks-what-you-can-learn/
+- Startup Pitch Deck Leader-Up Presentation Template https://v.youku.com/v_show/id_XMTcyODM0MjgwMA==.html?spm=a2h0k.8191422.0.0&from=s1.8-1-1.2
+- 关于精益创业的方法论，看完这些就掌握了大半！ https://baijiahao.baidu.com/s?id=1623896446440591644&wfr=spider&for=pc
+- 产品经理如何理解“精益创业” http://www.timekr.com/archives/131
+- 我的精益创业实践: http://www.woshipm.com/xiazai/77446.html
+- 产品经理眼中的「精益创业」https://zhuanlan.zhihu.com/p/20274578
+- Google Analytics 在国内能使用吗? 会不会不准?: https://ask.csdn.net/questions/382411
+- Google-analytics在中国大陆可以使用吗: https://ask.csdn.net/questions/382411
+- 2020年最详细的Google analytics使用教程: https://zhuanlan.zhihu.com/p/76139981
+- 国内网站博客数据统计选免费Google Analytics还是百度统计: https://www.freehao123.com/google-analytics-baidu-tongji/
+- Matomo:PHP免费开源统计系统可以与谷歌统计较量: https://t00ts.com/354.htm
+- Matomo免费开源的PHP统计系统 简单定制私有化可媲美谷歌统计的强大统计系统: https://www.wanvi.net/10428.html
+- Matomo初探系列之（一）Matomo工作原理: http://www.matomo.net.cn/2018/12/matomo-how-to-work/
+- matomo的安装使用和体验: https://yq.aliyun.com/articles/530337
+
+## 与第十二课相关的面试问题及市場需求
+- 腾讯云 Serverless 技术演进: https://www.infoq.cn/article/SZzkUKeqdxpP5FkNPZOQ
+- 多角度对比分析阿里云服务器和腾讯云服务器那个好？: https://www.yunqikan.cn/2246.html
+- 人工智能遇冷，腾讯云升级之后的大数据AI版图: https://www.leiphone.com/news/201912/oQ491ltA7uiDbatb.html
+- CSIG背后，腾讯云在腾讯战略升级中扮演什么角色？: https://www.iyiou.com/p/82582.html
+- “腾讯云分析”发布今年一季度移动行业数据报告：“UC浏览器”是男生装机必备，女生则多离不开“淘宝”和“美图秀秀”: https://www.36kr.com/p/212204
+- Azure notebook vs Google colab: https://placeless.net/blog/microsoft-azure-notebook-vs-google-colab
+- Integrating Google Colaboratory into Your Machine Learning Workflow: https://nholmber.github.io/2018/09/google-colab/
+- Tutorial to deploy Machine Learning models in Production as APIs (using Flask):https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
+- What Is Amazon SageMaker? https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html
+- Develop and run code from anywhere with Jupyter notebooks on Azure. https://notebooks.azure.com/
+
+
