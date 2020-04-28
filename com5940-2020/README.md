@@ -253,6 +253,7 @@ This is the place where you can find the supporting materials used in COM5940 - 
 - Develop and run code from anywhere with Jupyter notebooks on Azure. https://notebooks.azure.com/
 - Google Analytics 在国内能使用吗? 会不会不准?: https://ask.csdn.net/questions/382411
 - Google-analytics在中国大陆可以使用吗: https://ask.csdn.net/questions/382411
+- 如何看待华为回应谷歌因美国禁令暂停支持部分业务一事，想要「继续发展和使用安卓生态」华为需要做哪些准备？ (文章提到Matomo):https://www.zhihu.com/question/325248415
 - 2020年最详细的Google analytics使用教程: https://zhuanlan.zhihu.com/p/76139981
 - 国内网站博客数据统计选免费Google Analytics还是百度统计: https://www.freehao123.com/google-analytics-baidu-tongji/
 - Matomo:PHP免费开源统计系统可以与谷歌统计较量: https://t00ts.com/354.htm
