@@ -1,3 +1,17 @@
+document.getElementById('submitBtn').addEventListener('click', sayHello);
+
+function sayHello() {
+         var username = document.forms[0].username.value;
+         var password = document.forms[0].pwd.value;
+         if (username == '') {alert('username cannot be blank!')};
+         if (password == '') {alert('password cannot be blank!')};
+         if (username !== '' && password !== '') {
+            alert("Hello " + username + "! Your password is " + password + '.');
+            var answer = "Hello " + username + "! Your password is " + password + '.';
+            document.getElementById('answer').innerHTML = answer;
+         }
+}
+
 function compute_x_plus_y(x,y) {
   var z = 0;
   x = parseInt(x);

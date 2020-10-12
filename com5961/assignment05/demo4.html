@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
         html, body {
             margin:0px; 
             padding:0px;
@@ -303,8 +302,7 @@
                         <td>Online</td>
                     </tr>
                 </table>
-                <div id='answer'>
-                </div>
+                <div id='answer'></div>
     </div>
     <div class='clr'></div>
     <div id='footer'>
@@ -319,12 +317,12 @@
     </div>
     </div>
     <script>
+        document.getElementById('submitBtn').addEventListener('click', sayHello);
         function sayHello() {
          var username = document.forms[0].username.value;
          var password = document.forms[0].pwd.value;
          alert("Hello " + username + "! Your password is " + password + '.');
         }
-        document.getElementById('submitBtn').addEventListener('click', sayHello);
     </script>
 </body>
 </html>
