@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+<title>Workshop</title>
+<link href="style2.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script>
+$(document).ready(function() {
+	$(window).resize(function() {
+		if ($(window).width() >= 960) {
+   			  $(".showview").html('<h1>Higher than 960</h1>');
+		}
+
+		if ($(window).width() < 960) {
+   			  $(".showview").html('<h1>960</h1>');
+		}
+
+		if ($(window).width() < 768) {
+   			  $(".showview").html('<h1>768</h1>');
+		}
+
+		if ($(window).width() < 550) {
+   			  $(".showview").html('<h1>550</h1>');
+		}
+
+		if ($(window).width() < 320) {
+   			  $(".showview").html('<h1>320</h1>');
+		} 
+	});	
+}); 
+</script>
+</head>
+<body>
+  <div class="showview">
+  	
+  </div>
+</body>
+</html>
