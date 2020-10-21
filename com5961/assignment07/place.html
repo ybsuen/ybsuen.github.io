@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>场景推荐</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <img src="https://shuqi-huang.github.io/COMM5961/Assignment05/picture/photo-351528_1920.jpg" 
+    style="background-repeat:no-repeat ;width:100%;
+    height:100%;background-attachment: fixed;">
+    <div style="text-align:center">
+            <h1>场景推荐</h1>
+            <p>此部分摄影爱好者可选择不同的分类方式对场景进行查找，期望您能找到满意的地点开启摄影之旅。
+            <br>按地区分类主要指按照香港岛、九龙半岛、新界三个大区域进行划分，适合规划路线和地点。
+            <br>按景点类型分类主要根据摄影爱好者的不同需求进行分档，分为地标、景点、商圈、博物馆、饮食与休闲、艺术与娱乐等。
+            <br>按游玩时间分类方便规划行程，可以合理安排出游和拍摄时间。</p>
+    </div>
+<br><br>
+<!--selector-->
+<div>
+                        <form>
+                            <select id="selecter" class="form-control" onchange="table();">
+                                <option value selected disabled>请选择分类方式</option>
+                                <option value="0">按地区分类</option>
+                                <option value="1">按景点分类</option>
+                                <option value="2">按时间分类</option>
+                            </select>
+                        </form>
+                        <br><br>
+
+<!--airtable--> <div id="table">
+    <iframe id="iframe" class="airtable-embed"
+    src="https://airtable.com/embed/shr2ht5sRwQyN3PLK?backgroundColor=green&viewControls=on" 
+    frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+    </div>
+<br>
+    <script>
+        function table(){
+    var selecter = parent.document.getElementById("selecter");
+            if (selecter.value=="0"){document.getElementById("iframe").src="https://airtable.com/embed/shrdp0KG7WWPYnDFD?backgroundColor=green&viewControls=on"};
+            if (selecter.value=="1"){document.getElementById("iframe").src="https://airtable.com/embed/shrfcsKjwOPyJX53n?backgroundColor=yellow&viewControls=on"};
+            if (selecter.value=="2"){document.getElementById("iframe").src="https://airtable.com/embed/shr79AEbINyMCnern?backgroundColor=blue&viewControls=on"};}
+    </script>
+    </div>
+</body>
+</html>
