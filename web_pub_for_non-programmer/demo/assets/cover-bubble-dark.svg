@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2000px"
+	 height="1000px" viewBox="0 0 2000 1000" enable-background="new 0 0 2000 1000" xml:space="preserve">
+<g id="Spicchi_sotto_e_lato">
+</g>
+<g id="luna">
+</g>
+<g id="Orizzontale_dark">
+	<g>
+		<defs>
+			<rect id="SVGID_5_" width="2000" height="1001"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_5_"  overflow="visible"/>
+		</clipPath>
+		<rect y="-2" clip-path="url(#SVGID_2_)" fill="#6C757D" width="2000" height="1001"/>
+		<ellipse clip-path="url(#SVGID_2_)" fill="#CCCCCC" cx="1026.852" cy="498.499" rx="600.926" ry="649.649"/>
+		<ellipse clip-path="url(#SVGID_2_)" fill="#F3F3F3" cx="534.26" cy="874.875" rx="600.926" ry="649.649"/>
+		<ellipse clip-path="url(#SVGID_2_)" fill="#F3F3F3" cx="1995.371" cy="408.409" rx="600.926" ry="649.649"/>
+		<ellipse clip-path="url(#SVGID_2_)" fill="#6C757D" cx="1539.815" cy="838.839" rx="525" ry="567.567"/>
+	</g>
+</g>
+<g id="Quadrato1">
+</g>
+<g id="Quadrato2">
+</g>
+<g id="Quadrato3">
+</g>
+<g id="Quadrato4">
+</g>
+<g id="Mobile">
+</g>
+<g id="Tablet">
+</g>
+<g id="Orizzontale_light">
+	<g>
+		<defs>
+			<rect id="SVGID_19_" y="-1385" width="2000" height="1000"/>
+		</defs>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_19_"  overflow="visible"/>
+		</clipPath>
+		<ellipse clip-path="url(#SVGID_4_)" fill="#CCCCCC" cx="534.639" cy="-508.175" rx="601.016" ry="648.87"/>
+		<ellipse clip-path="url(#SVGID_4_)" fill="#F3F3F3" cx="1540.345" cy="-544.168" rx="525.079" ry="566.886"/>
+	</g>
+</g>
+</svg>
