@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
     <style>
         html, body {
             margin:0px; 
@@ -342,7 +343,10 @@
                         <td>Online</td>
                     </tr>
                 </table>
-                <div id='answer'></div>
+                <button id='submitBtnHide' type='button'>Hide</button>
+                <button id='submitBtnShow' type='button'>Show</button>
+                <br>
+                <div id='answer'>I'm here.</div>
     </div><!-- end of sidebar -->
     </div><!-- end of wrapper -->
     <div class='clr'></div>
@@ -358,12 +362,24 @@
     </div>
     </div>
     <script>
-        document.getElementById('submitBtn').addEventListener('click', sayHello);
-        function sayHello() {
-         var username = document.forms[0].username.value;
-         var password = document.forms[0].pwd.value;
-         alert("Hello " + username + "! Your password is " + password + '.');
-        }
+            document.getElementById('submitBtn').addEventListener('click', sayHello);
+                function sayHello() {
+                    var username = document.forms[0].username.value;
+                    var password = document.forms[0].pwd.value;
+                    alert("Hello " + username + "! Your password is " + password + '.');
+            }
+            
+            $(document).ready(function() {
+                $("button#submitBtnHide").on("click",function() {
+                   $("#answer").hide();            
+                 });
+
+                $("button#submitBtnShow").on("click",function() {
+                    $("#answer").show(); 
+                    $("#answer").css("color","blue");                   
+                    $("#answer").html("You clicked me."); 
+                 });
+            });
     </script>
 </body>
 </html>
