@@ -12,6 +12,8 @@
   <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.11/c3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
 </head>
 <body>
   <div class="container">
@@ -50,9 +52,17 @@
                 <div id="chart2"></div>
             </div>
         </div><!--end row-->
+        <h1>Leaflet Example</h1>
+          <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-12">
+               <button type="button" class="btn btn-warning" id='roll_up' onclick="show_districts();">Show Districts</button><br>
+              <div id="map" style="width: 600px; height: 400px"></div>
+             </div><!-- column -->
+          </div><!-- row -->
         </div><!-- end col -->
     </div><!--end row -->
   </div><!-- container -->
+
 <script type="text/javascript" language="javascript" src="app.js"></script>
 </body>
 </html>
