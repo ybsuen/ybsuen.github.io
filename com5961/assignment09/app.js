@@ -22,6 +22,32 @@ var map = L.map('map')
         }); // end .each
 }); // end getJSON
 
+function place_map() {
+    $('#map').show();
+    var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
+
+    var map = L.map('map')
+      .addLayer(mapboxTiles)
+      .setView([22.287111, 114.191667], 13);
+
+    layerGroup = L.layerGroup().addTo(map);
+
+    var items = [];
+    var airtable_read_endpoint = "https://api.airtable.com/v0/appKIU0zkdHt3AVTL/Venues?api_key=keycj6dRwXwYLEjiv";
+    var data = [];
+    $.getJSON(airtable_read_endpoint, function(result) {
+          $.each(result.records, function(key,value) {
+              items = {};
+                  items["name"] = value.fields.Name;
+                  items["url"] = value.fields.url;
+                  items["image_url"] = value.fields.img_url;
+                  items["latitud"] = value.fields.Lat;
+                  items["longitud"] = value.fields.Lng;
+                  data.push(items);
+                  console.log(items);
+            }); // end .each
+    }); // end getJSON
+}
 
 function place_marker() {
     // var place = document.getElementById("filter").value;
@@ -219,8 +245,8 @@ $(document).ready(function(){
           $('#chart').empty();
           $('#chart1').empty();
           $('#chart2').empty();
-          
-
+          $('#map').hide();
+          map.remove();
  }); // end clear tables
 
 }); // document ready
