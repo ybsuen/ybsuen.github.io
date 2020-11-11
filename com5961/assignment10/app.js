@@ -41,7 +41,6 @@ $(document).ready(function(){
                      defaultContent:""},
                ]
            } );
-
       }); // end .getJSON
    }); // end button
 
@@ -55,7 +54,7 @@ $(document).ready(function(){
               $.each(result.records, function(key,value) {
                   items = [];
                   items.push(value.fields['Name']);
-                  items.push(value.fields['total_items_by_category']);
+                  items.push(value.fields['Total Items by Category']);
                   dataSet.push(items);
                   console.log(items);
                 }); // end .each
@@ -71,83 +70,6 @@ $(document).ready(function(){
                         defaultContent:"" },
                 ]
             } );
-            
-            var chart = c3.generate({
-                data: {
-                    columns: dataSet,
-                    type : 'bar',
-                    labels:true
-                },
-                axis: {
-                  /*x: {label: 'Product'},*/
-                  x: {
-                    label: 'Products',
-                    type: 'category',
-                    categories:['','','','']
-                   },
-                  y: {label: '# of Items'}
-                },
-                bar: {
-                    title: "# of Items by Product Category:",
-                    width: {
-                        ratio: 0.5 // this makes bar width 50% of length between ticks
-                      }
-                },
-                tooltip: {
-                  show: false,
-              }
-                
-            }); // end c3.generate
-            
-
-            var chart = c3.generate({
-                  data: {
-                     columns:dataSet,
-                     type : 'bar',
-                     labels:true,
-                     colors: {
-                        radio: '#7FB3D5',
-                        computer: '#5499C7',
-                        tv: '#2980B9',
-                        tablet: '#2471A3'
-                        }
-                   },
-                  bar: {
-                      title: "Product by Category:",
-                      width: {
-                        ratio: 0.5 // this makes bar width 50% of length between ticks
-                      }
-                  },
-                  tooltip: {
-                      show: false,
-                  },
-                  axis: {
-                    x: {
-                        label: 'Products',
-                        type: 'category',
-                        categories:['','','','']
-                       },
-                    y: {label: '# of Entries'}
-                  },
-                  bindto: '#chart1'
-            }); // end c3.generate
-
-          var chart = c3.generate({
-                data: {
-                    columns: dataSet,
-                    type : 'donut',
-                    colors: {
-                      radio: '#7FB3D5',
-                      computer: '#5499C7',
-                      tv: '#2980B9',
-                      tablet: '#2471A3'
-                      }
-                },
-                donut: {
-                    title: "Product Distribution",
-                },
-                bindto: '#chart2'
-            }); // end c3.generate
 
         }); // end .getJSON
  }); // end button
@@ -162,10 +84,6 @@ $(document).ready(function(){
               $('#table2').DataTable().destroy();
               $('#table2').empty();
           }
-          $('#chart').empty();
-          $('#chart1').empty();
-          $('#chart2').empty();
-
  }); // end clear tables
 
 }); // document ready
