@@ -238,8 +238,6 @@ $(document).ready(function(){
           $('#chart').empty();
           $('#chart1').empty();
           $('#chart2').empty();
-          location.reload();
-
  }); // end clear tables
 
 }); // document ready
