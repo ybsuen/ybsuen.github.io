@@ -24,6 +24,7 @@ var map = L.map('map')
 
 function place_map() {
     $('#map').show();
+    layerGroup.clearLayers();
     var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
 
     var map = L.map('map')
