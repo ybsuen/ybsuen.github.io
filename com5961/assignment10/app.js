@@ -233,7 +233,11 @@ $(document).ready(function(){
  }); // end button
 
  $("button#clear_tables").click(function() {
-          // $('.table-responsive').toggle();
+          /* 
+
+          Comment out code experiments to reset specific DOM element selectors.
+          
+          $('.table-responsive').toggle();
           if ( $.fn.dataTable.isDataTable('#table1') ) {
               $('#table1').DataTable().destroy();
               $('#table1').empty();
@@ -246,7 +250,11 @@ $(document).ready(function(){
           $('#chart1').empty();
           $('#chart2').empty();
           $('#map').hide();
-          map.remove();
+          map.remove(); 
+          
+          */
+
+          location.reload();
  }); // end clear tables
 
 }); // document ready
