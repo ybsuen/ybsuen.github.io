@@ -1,5 +1,5 @@
-var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
-
+var mapboxTiles = L.tileLayer.grayscale('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
+//  var mapboxTiles = L.tileLayer.grayscale
 var map = L.map('map')
    .addLayer(mapboxTiles)
    .setView([22.287111, 114.191667], 13);
@@ -22,7 +22,14 @@ var map = L.map('map')
         }); // end .each
 }); // end getJSON
 
-function place_map() {
+function remove_map() {
+    $('#map').hide();
+    map.remove(); 
+    // location.reload();
+}
+
+
+function clear_map() {
     $('#map').show();
     layerGroup.clearLayers();
     var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
@@ -81,47 +88,32 @@ function clear_markers () {
 
 $(document).ready(function(){
 
-  $("button#get_data").click(function() {
+  $("button#get_data1").click(function() {
       var dataSet = [];
       var items = [];
       var i = 0;
       $('.table-responsive').show();
-      var airtable_read_endpoint = "https://api.airtable.com/v0/appKIU0zkdHt3AVTL/Product?api_key=keycj6dRwXwYLEjiv";
+      var airtable_read_endpoint = "https://api.airtable.com/v0/appKIU0zkdHt3AVTL/Roll-up?api_key=keycj6dRwXwYLEjiv";
       $.getJSON(airtable_read_endpoint, function(result) {
-             $.each(result.records, function(key,value) {
+            $.each(result.records, function(key,value) {
                 items = [];
-                items.push(value.fields['company']);
-                items.push(value.fields['product_code']);
-                items.push(value.fields['product_no']);
-                items.push(value.fields['geocode2']);
-                items.push(value.fields['json']);
-                items.push(value.fields['gender']);
-                items.push(value.fields['name']);
+                items.push(value.fields['Name']);
+                items.push(value.fields['total_items_by_category']);
                 dataSet.push(items);
                 console.log(items);
               }); // end .each
               console.log(dataSet);
 
-           $('#table1').DataTable( {
-               data: dataSet,
-               retrieve: true,
-               columns: [
-                   { title: "Company",
-                     defaultContent:""},
-                   { title: "Product",
-                       defaultContent:"" },
-                   { title: "Number",
-                     defaultContent:"" },
-                   { title: "Geo Code",
-                     defaultContent:""},
-                   { title: "JSON",
-                       defaultContent:""},
-                   { title: "Gender",
-                     defaultContent:""},
-                   { title: "Name",
-                     defaultContent:""},
-               ]
-           } );
+          $('#table1').DataTable( {
+              data: dataSet,
+              retrieve: true,
+              columns: [
+                  { title: "Product",
+                    defaultContent:""},
+                  { title: "Total Amount",
+                      defaultContent:"" },
+              ]
+          } );
 
       }); // end .getJSON
    }); // end button
@@ -234,10 +226,6 @@ $(document).ready(function(){
  }); // end button
 
  $("button#clear_tables").click(function() {
-          /* 
-
-          Comment out code experiments to reset specific DOM element selectors.
-          
           $('.table-responsive').toggle();
           if ( $.fn.dataTable.isDataTable('#table1') ) {
               $('#table1').DataTable().destroy();
@@ -250,12 +238,8 @@ $(document).ready(function(){
           $('#chart').empty();
           $('#chart1').empty();
           $('#chart2').empty();
-          $('#map').hide();
-          map.remove(); 
-          
-          */
-
           location.reload();
+          
  }); // end clear tables
 
 }); // document ready
