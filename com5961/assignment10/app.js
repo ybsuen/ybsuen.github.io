@@ -32,7 +32,7 @@ function remove_map() {
 function clear_map() {
     $('#map').show();
     layerGroup.clearLayers();
-    var mapboxTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
+    var mapboxTiles = L.tileLayer.grayscale('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>', maxZoom: 18,});
 
     var map = L.map('map')
       .addLayer(mapboxTiles)
@@ -239,7 +239,7 @@ $(document).ready(function(){
           $('#chart1').empty();
           $('#chart2').empty();
           location.reload();
-          
+
  }); // end clear tables
 
 }); // document ready
