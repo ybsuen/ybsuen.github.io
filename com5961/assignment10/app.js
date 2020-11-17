@@ -163,7 +163,7 @@ $(document).ready(function(){
                 bar: {
                     title: "# of Items by Product Category:",
                     width: {
-                        ratio: 0.5 // this makes bar width 50% of length between ticks
+                        ratio: .5 // this makes bar width 50% of length between ticks
                       }
                 },
                 tooltip: {
