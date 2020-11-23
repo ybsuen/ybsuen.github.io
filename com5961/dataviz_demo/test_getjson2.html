@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>GetJSON</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js"></script>
+  <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.11/c3.min.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.11/c3.min.js"></script>
+  <script src="TileLayer.Grayscale.js"></script>
+  <style>
+    #map {
+       height: 300px;
+     }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+          <h1>Airtable GetJSON</h1>
+          <div class="card card-body bg-light" style="width:100%; margin-bottom:20px;">
+              <h5>Airtable API Demo</h5>
+              <p id="welcome">Using jQuery getJSON and Airtable API for fun!</p>
+              <p id="demo">Airtable is a wonderful spreadsheet-like database with many useful features for data modeling and basic analytics. 
+              When used with other data visualization libraries, it can be a great tool for rapid prototyping.
+          </div><!-- end well -->
+          <!-- Sign and date the page, it's only polite! -->
+          <div> 
+            <button type="button" class="btn btn-success" id='get_data1'>Table</button>
+            <button type="button" class="btn btn-warning" id='get_data2'>Charts</button>
+            <button type="button" class="btn btn-info" id='clear_tables'>Remove</button>
+          </div>
+          <div class="table-responsive">
+                <!--table id="table1" width="100%" class="table table-bordered"></table-->
+          </div><!-- table responsive -->
+          <div class="table-responsive">
+                <!--table id="table2" width="100%" class="table table-bordered"></table-->
+          </div><!-- table responsive -->
+          <div class="row">
+            <div class="col-sm-12">
+                <div id="chart"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+                <div id="chart1"></div>
+            </div>
+            <div class="col-sm-6">
+                <div id="chart2"></div>
+            </div>
+        </div><!--end row-->
+        <br>
+        <h1>Leaflet Example</h1>
+            <div class="row">
+              <div class="col-sm-6">
+                <form>
+                  <div class="form-group">
+                      <select id="filter" class="form-control form-control-sm" style="width:auto; display:inline;" onchange="place_marker()">
+                        <option value="" selected disabled>Please select</option>
+                        <option value="0">HKU</option>
+                        <option value="1">Kowloon Science Musuem</option>
+                        <option value="2">Victoria Peak</option>
+                        <option value="3">HK Cultural Center</option>
+                        <option value="4">Choi Hung</option>
+                        <option value="5">Lan Kwai Fong</option>
+                        <option value="6">CUHK</option>
+                        <option value="7">HKBU</option>
+                        <option value="8">North Point</option>
+                        <option value="9">Victoria Harbour</option>
+                        <option value="10">Mong Kok</option>
+                        <option value="11">Happy Valley</option>
+                      </select>
+                      <button type="button" class="btn btn-outline-primary btn-sm" id='roll_up' onclick="show_districts();">Destinations</button>
+                      <button type="button" class="btn btn-outline-primary btn-sm" id="roll_up" onclick="clear_map();" style="
+                          border-style: solid;
+                          border-width: 1px;
+                          border-color: #327ab7;
+                      ">Reset</button>
+                      <button type="button" class="btn btn-outline-primary btn-sm" id='roll_up' onclick="remove_map();">Remove</button>
+                </div>           
+                </form>  
+                <div id="map" style="width: 100%; height: 300px"></div>
+                </div><!-- end column-->
+                <div class="col-sm-6">
+                    <div class="table-responsive">
+                        <table id="table1" width="100%" class="table table-bordered"></table>
+                    </div><!-- table responsive -->
+                </div><!-- end column -->
+          </div><!--end row-->
+  </div><!-- container -->
+<script type="text/javascript" language="javascript" src="app.js"></script>
+</body>
+</html>
+</html>
