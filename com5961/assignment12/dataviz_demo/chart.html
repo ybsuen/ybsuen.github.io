@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+        <title>C3/D3 Demo</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71445513-5"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-71445513-5', { 'optimize_id': 'GTM-5ZMZBSV'});
+        </script>
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script-->
+        <link href="assets/css/style2.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <!-- Custom styles for this template -->
+        <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media
+        queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        <!-- Static navbar -->
+        <div class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">STANLEY</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="work.html">Work</a>
+                        </li>
+                        <li>
+                            <a href="chart.html">Chart</a>
+                        </li>
+                        <li>
+                            <a href="table.html">Table</a>
+                        </li>
+                        <li>
+                            <a href="map.html">Map</a>
+                        </li>
+                        <li>
+                            <a href="map3.html">Map 2</a>
+                        </li>
+                        <li>
+                            <a href="mytimeline.html">Timeline</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+        <!-- +++++ Posts Lists +++++ -->
+        <!-- +++++ First Post +++++ -->
+        <div class="box">
+            <h2>C3D3 Chart Demo</h2>
+        </div>
+        <div id="grey">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="col-sm-12">
+                        <script src="assets/js/c3chart.js"></script>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <form>
+                                        <select id="filter" class="selectpicker" multiple="" style="width: 100%;">
+                                            <option value="" selected="" disabled="">Please select</option>
+                                            <option value="bar">Bar Chart</option>
+                                            <option value="line">Line Chart</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <div class="col-md-4" style="margin-top: 2%;">
+                                    <div class="row">
+                                        <a href="table.html" style="color:black;"><button>Click here to see the details in a table.</button></a>
+                                    </div>
+                                    <div class="row">
+                                        <a href="assets/js/data_export.json" target="_blank" style="color:black;"><button>Aggregated JSON data displayed in current chart</button></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4"></div>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <div id="chart"></div>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.18/c3.min.js"></script>
+                        </div>
+                        <!-- table-responsive -->
+                    </div>
+                    <!-- col-sm-12-->
+                </div>
+                <!-- container fluid -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /grey -->
+        <!-- +++++ Second Post +++++ -->
+        <!-- /white -->
+        <!-- +++++ Third Post +++++ -->
+        <!-- /grey -->
+        <!-- +++++ Footer Section +++++ -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                   
+                    </div>
+                    <!-- /col-lg-4 -->
+                    <div class="col-lg-4">
+          
+                    </div>
+                    <!-- /col-lg-4 -->
+                    <div class="col-lg-4">
+                        
+                    </div>
+                    <!-- /col-lg-4 -->
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript==================================================-
+        ->
+    <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

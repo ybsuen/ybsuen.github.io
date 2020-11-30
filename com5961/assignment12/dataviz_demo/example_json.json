@@ -1,0 +1,104 @@
+{
+    "title": {
+            "text": {
+                "headline": "My Education Turn",
+                "text":     "A timeline for becomming an educator."
+            }
+    },
+    "events": [
+        {
+            "start_date": {
+                "year":         "2001",
+                "month":        "01",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Chinese_University_of_Hong_Kong",
+                "credit": "Wikipedia"
+            },
+            "text": {
+                "headline": "Joined CUHK",
+                "text": "A new beginning for a career in education."
+            },
+            "unique_id": ""
+        },
+        {
+            "start_date": {
+                "year":         "2001",
+                "month":        "01",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "media": {
+                "caption": "CUHK School of Journalism and Communication.",
+                "credit": "CUHK School of Journalism and Communication",
+                "url": "http://www.com.cuhk.edu.hk/templates/JLM_Desktop/images/main_logo.png"
+            },
+            "text": {
+                "headline": "Joined School of Journalism and Communication",
+                "text": "I started to teach New Media Entrepreneurship at the Master of New Media Program."
+            }
+        },
+        {
+            "start_date": {
+                "year":         "2001",
+                "month":        "01",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "end_date": {
+                "year":         "2007",
+                "month":        "01",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+            "media": {
+                "url": "https://en.wikipedia.org/wiki/Entrepreneurship"
+            },
+            "text": {
+                "headline": "Entrepreneurship",
+                "text": ""
+            },
+            "unique_id": ""
+        },
+        {
+            "start_date": {
+                "year":         "2007",
+                "month":        "01",
+                "day":          "",
+                "hour":         "",
+                "minute":       "",
+                "second":       "",
+                "millisecond":  "",
+                "format":       ""
+            },
+             "media": {
+                "caption": "CUHK Center for Entrepreneurshp.",
+                "credit": "CUHK Center for Entrepreneurshp",
+                "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/ContactUs_Hero01.png"
+            },
+            "text": {
+                "headline": "Joined CUHK Center for Entrepreneurship",
+                "text": "Invited by CUHK Center for Entrepreneurship to become one of thier project directors."
+            },
+            "unique_id": ""
+        }
+    ]
+}

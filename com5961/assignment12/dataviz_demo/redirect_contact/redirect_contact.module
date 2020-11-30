@@ -1,0 +1,17 @@
+<?php
+   
+/**
+ * Implements hook_form_alter()
+ */
+function redirect_contact_form_alter(&$form, &$form_state, $form_id) {
+
+    if ($form_id == 'contact_site_form') {
+        $form['#submit'][] = 'contact_form_submit_handler';
+    }
+
+}
+
+function contact_form_submit_handler(&$form, &$form_state) {
+    // Change the URL to fit your situation
+    $form_state['redirect'] = url('http://dev-com5961a.pantheonsite.io/dataviz_demo/thankyou.html', array('absolute' => true));
+}

@@ -1,0 +1,184 @@
+    
+    /*
+    html, body {
+        margin: 0;
+        height: 100%;
+        background-color: #f2f2f2;
+    }
+    */
+ 
+   body {
+        background: url("desk-white-black-header.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    }
+
+
+    header {
+        display: -webkit-box;
+        display:-moz-deck;
+        width:100%;
+        text-align: -webkit-center;
+        background-color: #006699;
+        color:#ffffe6;
+    }
+
+
+    header h1 {
+        font-family: 'Baloo Bhaina', cursive;
+        text-align: center;
+    }
+
+    h2 {
+        color:white;
+        font-size: 24px;
+    }
+
+    footer {
+        /* clear: both;
+        display: -webkit-box;
+        text-align: -webkit-center; */
+        background-color: #006699;
+        color:#ffffe6;
+        position: absolute;
+        width: 100%;
+        bottom:0;
+    }
+
+    footer h1 {
+        font-family: 'Baloo Bhaina', cursive;
+    }
+
+    /*
+    nav ul li {
+       float:left;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        margin: 4px;
+        background-color: #F5ECCE;
+        text-decoration: none;
+    }
+    */
+/* Change the link color on hover */
+    
+  /*  
+    nav ul li a:hover {
+        background-color: #555;
+        color: white;
+    }
+
+    a.active {
+        background-color: #ffaa00;
+    }
+  */
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+        background-color: #ffaa00
+    }
+
+    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+        background-color: #555;
+        color: white;
+    }
+/*
+    #work {
+        margin:0px;
+        padding:0px;
+        background-image: url("desk-white-black-header.jpg");
+        background-size:100% auto;
+        background-repeat: no-repeat;
+        background-size:  150%;
+        height:100%;
+    }
+*/
+    main {
+        clear:both;
+        width:70%;
+        float:left;
+        margin-top:30px;
+    }
+
+    section {
+        margin:0px;
+        padding:0px;
+        display:flex;
+    }
+
+    artilce {
+        padding:0px;
+    }
+
+    .title {
+        color:black;
+        font-family: arial, helvetica;
+    }
+
+    .desc {
+        padding:10px;
+        color:#2e2e1f;
+        font-family: arial, helvetica;
+        background-color:#e0e0d1; 
+        /* opacity: 0.5; */
+    }
+
+    #play {
+          
+    }
+
+    aside {
+        float:right;
+        width:28%;
+        padding:5px;
+        color:white;
+        font-family: arial, helvetica;
+        margin-top: 26px; 
+    }
+
+   footer {
+        /* clear: both;
+        display: -webkit-box;
+        text-align: -webkit-center; */
+        background-color: #006699;
+        color:#ffffe6;
+        position: absolute;
+        width: 100%;
+        bottom:0;
+    }
+
+    footer h1 {
+        font-family: 'Baloo Bhaina', cursive;
+    }
+
+    .box {
+        display: block;
+        background-color: #b8b894;
+        padding-top:.1%;
+        padding-bottom: 1%;
+        padding-left:2%;
+    }
+
+    .table-responsive {
+        background-color: floralwhite;
+        padding: 2%; 
+    }
+    
+    #filter {
+        margin-bottom: 2%;
+        width: 25%;
+    }
+
+    #hd {
+        background-color: white;
+    }
+
+    .form-control {
+        width:50% !important;
+    }
+
+
